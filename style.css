@@ -12,7 +12,7 @@ h1{
     border-color: #00D0FF transparent;
     border-style: solid;
     width: 80%;
-    margin:  0 auto;
+    margin:  20px auto 0;
     padding: 5px 0;
     text-align: center;
 }
@@ -22,7 +22,7 @@ h2{
     border-color: #0090FF transparent;
     border-style: double;
     width: 80%;
-    margin:  0 auto;
+    margin:  20px auto 0;
     padding: 5px 0;
     text-align: center;
 }
@@ -33,7 +33,7 @@ h3{
     border-style: solid;
     border-width: medium;
     width: 80%;
-    margin:  0 auto;
+    margin:  20px auto 0;
     padding: 5px 0;
     text-align: center;
 }
