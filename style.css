@@ -46,6 +46,14 @@ p{
     text-align: left;    
 }
 
+ul.left{
+    text-align: left;
+}
+
+ul.center{
+    text-align: center;
+}
+
 .bottom{
     border: 1px;
     border-color: #FF00FF transparent transparent transparent;
