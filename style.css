@@ -49,9 +49,11 @@ p{
 .bottom{
     border: 1px;
     border-color: #0000FF transparent transparent transparent;
+    border-style: solid;
+    border-width: thin;
     width: 85%;
     margin:  20px auto 0;
-    padding: 20px 0;
+    padding: 5px 0;
     text-align: center;
 }
 
