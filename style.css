@@ -7,9 +7,40 @@ body{
     font-family: Arial, sans-serif;
 }
 
+h1{
+    border: 1px;
+    border-color: #00D0FF transparent;
+    border-style: solid;
+    width: 80%;
+    margin:  0 auto;
+    padding: 5px 0;
+    text-align: center;
+}
+
+h2{
+    border: 1px;
+    border-color: #0090FF transparent;
+    border-style: double;
+    width: 80%;
+    margin:  0 auto;
+    padding: 5px 0;
+    text-align: center;
+}
+
+h3{
+    border: 1px;
+    border-color: #0070FF transparent;
+    border-style: solid;
+    border-width: medium;
+    width: 80%;
+    margin:  0 auto;
+    padding: 5px 0;
+    text-align: center;
+}
+
 .bottom{
-    border: 1px solid #000;
-    border-color: blue transparent;
+    border: 1px;
+    border-color: blue transparent transparent transparent;
     width: 80%;
     margin:  20px auto 0;
     padding: 20px 0;
