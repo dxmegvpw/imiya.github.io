@@ -5,13 +5,14 @@ body{
     padding: 0;
     text-align: center;
     font-family: Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
 }
 
 h1{
     border: 1px;
     border-color: #00D0FF transparent;
     border-style: solid;
-    width: 80%;
+    width: 85%;
     margin:  20px auto 0;
     padding: 5px 0;
     text-align: center;
@@ -21,7 +22,7 @@ h2{
     border: 1px;
     border-color: #0090FF transparent;
     border-style: double;
-    width: 80%;
+    width: 85%;
     margin:  20px auto 0;
     padding: 5px 0;
     text-align: center;
@@ -32,24 +33,42 @@ h3{
     border-color: #0070FF transparent;
     border-style: solid;
     border-width: medium;
-    width: 80%;
+    width: 85%;
     margin:  20px auto 0;
     padding: 5px 0;
     text-align: center;
 }
 
 p{
-    width: 70%;
+    width: 75%;
     margin:  0 auto;
     padding: 0;
-    text-align: center;    
+    text-align: left;    
 }
 
 .bottom{
     border: 1px;
-    border-color: blue transparent transparent transparent;
-    width: 80%;
+    border-color: #0000FF transparent transparent transparent;
+    width: 85%;
     margin:  20px auto 0;
     padding: 20px 0;
     text-align: center;
 }
+
+.book_title{
+    border-bottom:1px solid;
+    border-color: orange;
+    width: 75%;
+    margin: 1px auto;
+    padding: 1;
+    text-align: center;   
+
+}
+
+.book_discription{
+    width: 65%;
+    margin:  0 auto;
+    padding: 0;
+    text-align: left;   
+}
+
