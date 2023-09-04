@@ -54,10 +54,6 @@ ul.left{
     list-style-type: disc;
 }
 
-ul.center{
-    text-align: center;
-}
-
 .bottom{
     border: 1px;
     border-color: #FF00FF transparent transparent transparent;
@@ -72,8 +68,8 @@ ul.center{
     border-bottom:1px solid;
     border-color: #FF7700;
     width: 75%;
-    margin: 1px auto;
-    padding: 1;
+    margin: 10px auto;
+    padding: 0;
     text-align: center;   
     font-weight: bold;
 
