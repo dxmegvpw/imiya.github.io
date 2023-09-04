@@ -56,7 +56,6 @@ ul.left{
 
 ul.center{
     text-align: center;
-    list-style-type: disc;
 }
 
 .bottom{
@@ -80,10 +79,10 @@ ul.center{
 
 }
 
-.book_discription{
+.book_description{
     width: 65%;
     margin:  0 auto;
-    padding: 0;
+    padding: 10px 0;
     text-align: left;   
 }
 
