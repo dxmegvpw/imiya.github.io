@@ -68,19 +68,18 @@
     <style>
         ol {
             margin: 75%;
-        }
-         
+        }         
         ol li {
             list-style-type: none;
             counter-increment: cnt;
             position: relative;
-        }
-         
+        }         
         ol li:before {
             content: "[" counter(cnt) "] ";
             display: inline-block;
             text-align: right;
             position: absolute;
+            margin-left: 2px;
         }
     </style>
 
