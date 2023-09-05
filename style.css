@@ -47,6 +47,10 @@ p{
     text-align: left;    
 }
 
+.center{
+    text-align: center;
+}
+
 ul.left{
     width: 70%;
     margin:  0 auto;

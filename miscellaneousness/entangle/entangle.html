@@ -15,12 +15,21 @@
 
     <p>
         &emsp;勉強していて純粋状態や混合状態，エンタングル状態などの概念がごちゃごちゃしてきたので，少しまとめておこうと思う．<a href="#ref1" style="text-decoration:none;">[1]</a>, <a href="#ref2" style="text-decoration:none;">[2]</a>, <a href="#ref3" style="text-decoration:none;">[3]</a>などにあるように，初学のときはよく引っかかる箇所なのだろう．実際，これらの概念を自由に使うためには色々な実例を知っていないと難しいのではないかと思っている<sup id="ftn1t"><a href="#ftn1" style="text-decoration:none;">*1</a></sup>．<br>
-        &emsp;基本的に純粋状態と混合状態，separable状態とエンタングルメント状態の概念が対になっていると考えればよいだろう．純粋状態の定義は，真面目に描くと次のようになるだろう：
-        「ある状態$\ket*{\psi}$が純粋状態であるとは，次の行列
+        &emsp;基本的に純粋状態と混合状態，separable状態とエンタングルメント状態の概念が対になっていると考えればよいだろう．純粋状態の定義は，真面目に描くと次のようになるだろう：<br>
+        <div class="center">
+            「ある状態$\ket*{\psi}$が純粋状態であるとは，次の行列
+            \begin{equation}
+                \rho_{\psi}\equiv \ketbra*{\psi}{\psi}
+            \end{equation}
+            が密度演算子となるときをいう．」
+        </div><br>
+        ここで，密度演算子とは，次のような条件を満たす演算子の子という：
         \begin{equation}
-            \rho\equiv \ketbra*{\psi}{\psi}
+            \Tr \rho = 1
+            ,\ 
+            \rho=\rho^{\dag}
+            .
         \end{equation}
-        が密度演算子となるときをいう．」
     </p>
 
 
