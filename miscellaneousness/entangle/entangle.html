@@ -67,7 +67,7 @@
 
     <style>
         ol {
-            margin: 75%;
+            margin-left: 3.5em; /* サイトに合せて調整 */
         }         
         ol li {
             list-style-type: none;
@@ -77,9 +77,12 @@
         ol li:before {
             content: "[" counter(cnt) "] ";
             display: inline-block;
+            margin-left: -3.5em; /* サイトに合せて調整 */
+            width: 3em; /* サイトに合せて調整 */
             text-align: right;
             position: absolute;
-            margin-left: 2px;
+            top: 0;
+            left: 0;
         }
     </style>
 
