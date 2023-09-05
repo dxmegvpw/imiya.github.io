@@ -1,24 +1,79 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+
 <head>
     <title>純粋状態やエンタングルメント</title>
     <link rel="shortcut icon" type="image/x-icon" href="/imiya.github.io/favicon.ico">
     <link rel="stylesheet" href="/imiya.github.io/style.css">
+    <script type="text/javascript" async 
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
 </head>
+
 <body>
     <h3>純粋状態やエンタングルメント</h3>
 
     <p>
-        &emsp;
+        &emsp;勉強していて純粋状態や混合状態，エンタングル状態などの概念がごちゃごちゃしてきたので，少しまとめておこうと思う．<a href="#ref1" style="text-decoration:none;">[1]</a>, <a href="#ref2" style="text-decoration:none;">[2]</a>, <a href="#ref3" style="text-decoration:none;">[3]</a>などにあるように，初学のときはよく引っかかる箇所なのだろう．実際，これらの概念を自由に使うためには色々な実例を知っていないと難しいのではないかと思っている<sup id="ftn1t"><a href="#ftn1" style="text-decoration:none;">*1</a></sup>．<br>
+        &emsp;基本的に純粋状態と混合状態，separable状態とエンタングルメント状態の概念が対になっていると考えればよいだろう．
     </p>
 
+    
+    <h4>注釈</h4>
 
+    <sup id="ftn1"><a href="#ftn1t" style="text-decoration:none;">*1</a></sup>:
+    例えば，ベル状態
+    \begin{equation}
+        \require{physics}
+        \ket{\psi}
+        =
+        \frac{1}{\sqrt{2}}
+        \left(
+            \ket{0}\otimes\ket{0}    
+            +
+            \ket{1}\otimes\ket{1}
+        \right)
+    \end{equation}
+    は<b>エンタングル</b>しているが，<b>純粋状態</b>である．
+
+
+
+
+
+
+
+    <h4>参考文献</h4>
+    <ol>
+        <li>
+            <a href="https://physics.stackexchange.com/questions/643578/what-are-the-relations-between-mixed-pure-and-separable-entangled-states" id="ref1" style="text-decoration:none;">‘What are the relations between mixed/pure and separable/entangled states?'</a>, Stack Exchange.
+        </li>
+        <li>
+            <a href="https://physics.stackexchange.com/questions/70436/differences-between-pure-mixed-entangled-separable-superposed-states" id="ref2" style="text-decoration:none;">‘Differences between pure/mixed/entangled/separable/superposed states’</a>, Stack Exchange.
+        </li>
+        <li>
+            <a href="https://physics.stackexchange.com/questions/590366/what-is-the-difference-between-pure-bell-states-and-bell-mixed-states" id="ref3" style="text-decoration:none;">‘What is the difference between pure Bell states and Bell mixed states?’</a>, Stack Exchange.
+        </li>
+    </ol>
+
+    <style>
+        ol.parentheses1 {
+	        margin-left: 20%;
+        }
+        ol li {
+	        list-style-type: none;
+	        counter-increment: cnt;
+        } 
+        ol li::before {
+	        content: "[" counter(cnt) "] ";
+	        display:inline-block;
+        }
+    </style>
 
 
 
 
     <div class="bottom">
-        最終更新日：2023年9月4日
+        最終更新日：2023年9月5日
     </div>
 </body>
 </html>
