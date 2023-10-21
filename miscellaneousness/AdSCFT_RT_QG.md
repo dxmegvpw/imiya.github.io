@@ -6,6 +6,11 @@
 
 AdS/CFT対応は，一般的にゲージ・重力対応やホログラフィック原理の1つのパターンとして考えられる．
 
+$$
+    i\hbar\frac{\partial\psi}{\partial t}
+    =
+    \hat{H}\psi
+$$
 
 
 ## 参考文献
