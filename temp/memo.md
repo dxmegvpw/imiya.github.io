@@ -9,3 +9,5 @@ GitHub Pagesを使う上でのメモ．
 ## GitHubとVS Codeの連携
 
 ## MarkDownを公開する方法
+
+マークダウンで書いて，リンクはhtmlで参照すればよいだけらしい．

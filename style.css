@@ -5,7 +5,7 @@ body{
     padding: 0;
     text-align: center;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     background-color: #FFFFFF;
     -webkit-text-size-adjust: 100%;
 }
@@ -18,7 +18,7 @@ h1{
     margin:  20px auto 0;
     padding: 5px 0;
     text-align: center;
-    font-size: 36px;
+    font-size: 2em;
 }
 
 h2{
@@ -29,7 +29,7 @@ h2{
     margin:  20px auto 0;
     padding: 5px 0;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.8em;
 }
 
 h3{
@@ -41,7 +41,7 @@ h3{
     margin:  20px auto 0;
     padding: 5px 0;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5px;
 }
 
 p{
@@ -49,12 +49,12 @@ p{
     margin:  0 auto;
     padding: 10px;
     text-align: left;    
-    font-size: 16px;
+    font-size: 12em;
 }
 
 .center{
     text-align: center;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 ul.left{
@@ -63,7 +63,7 @@ ul.left{
     padding: 10px;
     text-align: left;
     list-style-type: disc;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .bottom{
@@ -74,7 +74,7 @@ ul.left{
     margin:  20px auto 0;
     padding: 5px 0;
     text-align: center;
-    font-size: 14px;
+    font-size: 0.8em;
 }
 
 .book_title{
@@ -85,7 +85,7 @@ ul.left{
     padding: 0;
     text-align: center;   
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1em;
 
 }
 
@@ -94,7 +94,7 @@ ul.left{
     margin:  0 auto;
     padding: 10px 0;
     text-align: left;   
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .footnote{
@@ -105,5 +105,5 @@ ul.left{
     margin:  20px auto 0;
     padding: 5px 0;
     text-align: left;
-    font-size: 14px;   
+    font-size: 0.8em;   
 }
