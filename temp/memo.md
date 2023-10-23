@@ -9,7 +9,10 @@ GitHub Pagesを使う上でのメモ．
 ## GitHubとVS Codeの連携
 
 1. [Git for Windows](https://git-scm.com/download/win)をダウンロード&インストール．
-2. 
+2. `git pull [url]`でリポジトリをコピー．（アドレスはリポジトリのCodeの項目からurlを入手）
+3. `git config user.email "hoge@gmail.com"`でメールアドレスを登録．
+4. `git config user.name "itsuki"`でユーザー名前を登録．
+5. 以上でOK．
 
 再起動すればうまく進むことがある．
 
