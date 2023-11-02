@@ -1,3 +1,14 @@
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({
+ tex2jax: {
+ inlineMath: [['$', '$'] ],
+ displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+ }
+ });
+</script>
+
 # AdS/CFT対応，笠-高柳公式，そして量子重力
 
 情報理論ゼミでAdS/CFT対応の熱力学的な側面について度々発表してきた[^1]．ここではそれらについて系統的なレビューをしようと思う．
