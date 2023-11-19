@@ -1,7 +1,10 @@
 @charset "UTF-8";
 
+html{    
+    font-size: 18px;
+}
+
 body{    
-    font-size: 20px;
     margin: 5%;
     font-family: Arial, sans-serif;
     background-color: #FFFFFF;
@@ -29,11 +32,11 @@ h3{
 }
 
 p{
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 
 ul{    
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 
 /* about <a> tag */
