@@ -25,19 +25,19 @@ p{
     font-size: 1.2em;
 }
 
-li{    
+ul{    
     font-size: 1.2em;
 }
 
 /* about <a> tag */
-a:link {
+a:link{
  color: #FE2EF7;
 }
 
-a:visited {
+a:visited{
  color: #FE9A2E;
 }
 
-a:active {
+a:active{
     color: #FE2EF7;
 }
