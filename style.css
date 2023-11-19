@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-body{
+body{    
+    font-size: 18px;
     margin: 5%;
     font-family: Arial, sans-serif;
     background-color: #FFFFFF;
@@ -9,8 +10,9 @@ body{
 h1{
     font-size: 2.4rem;
     color: #191970;
-    border-bottom-width: 5px;
-    border-color: #4d4d4d;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color: #808080;
 }
 
 h2{
@@ -21,7 +23,8 @@ h2{
 h3{
     font-size: 2.2rem;
     color: #191970;
-    border-bottom-width: 5px;
+    border-style: solid;
+    border-bottom-width: 1px;
     border-color: #808080;
 }
 
