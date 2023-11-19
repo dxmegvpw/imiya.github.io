@@ -2,7 +2,8 @@
 
 html{    
     font-size: 20px;
-    text-size-adjust: initial;
+    text-size-adjust: auto;
+    -webkit-text-size-adjust: inherit;
 }
 
 body{    
