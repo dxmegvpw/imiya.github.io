@@ -2,7 +2,7 @@
 
 html{    
     font-size: 20px;
-    text-size-adjust: auto;
+    text-size-adjust: 100%;
 }
 
 body{    
@@ -43,6 +43,11 @@ p{
 
 ul{    
     font-size: 1.0rem;
+}
+
+p img{    
+    width: 31%;
+    height: auto;
 }
 
 /* about <a> tag */
