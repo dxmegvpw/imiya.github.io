@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 body{    
-    font-size: 18px;
     margin: 5%;
     font-family: Arial, sans-serif;
     background-color: #FFFFFF;
@@ -10,9 +9,9 @@ body{
 h1{
     font-size: 2.4rem;
     color: #191970;
-    border-style: solid;
+    border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-color: #808080;
+    border-bottom-color: #808080;
 }
 
 h2{
@@ -23,17 +22,17 @@ h2{
 h3{
     font-size: 2.2rem;
     color: #191970;
-    border-style: solid;
+    border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-color: #808080;
+    border-bottom-color: #808080;
 }
 
 p{
-    font-size: 1.8rem;
+    font-size: 1.0rem;
 }
 
 ul{    
-    font-size: 1.8rem;
+    font-size: 1.0rem;
 }
 
 /* about <a> tag */
