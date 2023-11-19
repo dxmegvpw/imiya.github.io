@@ -3,6 +3,7 @@
 html{    
     font-size: 20px;
     text-size-adjust: auto;
+    -webkit-text-size-adjust: auto;
 }
 
 body{    
