@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 html{    
-    font-size: 20px;
-    text-size-adjust: auto;
+    font-size: calc((100vw - 320px) / 140 + 16px);
+    text-size-adjust: 100%;
 }
 
 body{    
