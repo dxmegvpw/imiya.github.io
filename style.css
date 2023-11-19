@@ -2,7 +2,7 @@
 
 html{    
     font-size: 20px;
-    text-size-adjust: inherit;
+    text-size-adjust: initial;
 }
 
 body{    
