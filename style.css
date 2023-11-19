@@ -9,7 +9,8 @@ body{
 h1{
     font-size: 2.4em;
     color: #191970;
-    border: 2px #808080;
+    border-bottom-width: 5px;
+    border-color: #808080;
 }
 
 h2{
@@ -18,7 +19,10 @@ h2{
 }
 
 h3{
-    font-size: 1.6em;
+    font-size: 2.0em;
+    color: #191970;
+    border-bottom-width: 5px;
+    border-color: #808080;
 }
 
 p{
@@ -31,13 +35,16 @@ ul{
 
 /* about <a> tag */
 a:link{
- color: #FE2EF7;
+    color: #FE2EF7;
+    text-decoration: none;
 }
 
 a:visited{
- color: #FE9A2E;
+    color: #FE9A2E;
+    text-decoration: none;
 }
 
 a:active{
     color: #FE2EF7;
+    text-decoration: none;
 }
