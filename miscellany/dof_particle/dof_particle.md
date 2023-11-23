@@ -10,6 +10,21 @@ title: 粒子の自由度と小群
 ## ローレンツ群$SO(3,1)$の群論
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 参考文献
 
 1. S. Weinberg, *``The Quantum Theory of Fields: Volume 1: Foundations,''* vol. 1. Cambridge: Cambridge University Press, 1995.
