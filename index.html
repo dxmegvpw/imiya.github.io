@@ -11,6 +11,17 @@
 </head>
 
 <body>
+    <script type="text/javascript">
+        var imglist = new Array(
+            "fig/me_01.jpg",
+            "fig/me_02.jpg",
+            "fig/notme_01.jpg",
+            "fig/notme_02.jpg"
+        );
+        var selectnum = Math.floor(Math.random() * imglist.length);
+        var output = '<img src=' + imglist[selectnum] + ' style="float:right;margin-left:10px;margin-bottom:10px" alt="me">';
+        document.write(output);
+    </script>
 
     <h1>Itsuki Miyane</h1>
 
@@ -49,10 +60,10 @@
             CV [pdf]
         </li>
         <li>
-            <a href="notes/notes.html">Notes in English and Japanese</a>
+            <a href="notes/notes.html">Some notes in English and/or Japanese</a>
         </li>
         <li>
-            AdS/CFT対応とエンタングルメントエントロピー (アドベントカレンダー2023の企画記事) [pdf]
+            AdS/CFT対応とエンタングルメントエントロピー (アドベントカレンダー2023の企画記事) [<a href="notes/notes.html#adscft_and_ee">リンク</a>]
         </li>
         <li>
             <a href="miscellany/miscellany.html">その他、雑多な文章</a>
@@ -61,11 +72,11 @@
 
     <p>
         Accounts:
-        <a href="https://twitter.com/Imiya2020" target="_blank">X</a>,
+        <a href="https://twitter.com/Imiya1989" target="_blank">X</a>,
         <a href="https://physics.stackexchange.com/users/372519/imiya" target="_blank">Stack Exchange</a>.
         <br>
         Email: 
-        <a href="mailto:ocojo.iki@akane.waseda.jp" target="_blank">Gmail (Waseda)</a>.
+        <a href="mailto:ocojo.iki@akane.waseda.jp" target="_blank">ocojo.iki_at_akane.waseda.jp</a>.
     </p>
     
 </body>
