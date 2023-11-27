@@ -427,7 +427,7 @@ $$
         .
     \end{align}
 $$
-By derivating to the $F_{i}$, the term in the action become separetly
+By derivating to the $F_{i}$, the term in the action become separately
 $$
     \begin{align}
         \frac{\delta}{\delta F_{i}}
@@ -488,7 +488,7 @@ $$
         .
     \end{align}
 $$
-Note that we have interchanged the dummy indices for several times after derivating. At last, the equation of motion with respect to the $F_{i}$
+Note that we have interchanged the dummy indices several times after derivating. At last, the equation of motion with respect to the $F_{i}$
 $$
     \begin{equation}
         h^{\bar{j}i}\bar{F}_{\bar{j}}
@@ -534,7 +534,142 @@ $$
         \braket{\phi_{i}}
         \neq 
         0
+        .
     \end{equation}
+$$
+Thus the Kahler potential satisfies
+$$
+    \begin{align}
+        \mathcal{K}
+        &=
+        \frac{2}{g^2}h^{\bar{i}j}
+        \text{Tr}\ \left[\vphantom{\frac{1}{2}}\right.
+            \bar{\phi}_{\bar{i}}\phi_{j}
+            +
+            \braket{\bar{\phi}_{\bar{i}}}\phi_{j}
+            +        
+            \bar{\phi}_{\bar{i}}\braket{\phi_{j}}
+            +
+            \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}
+            -
+            \sqrt{2}\bar{\phi}_{\bar{i}}(\partial_{j}V)
+            -
+            \sqrt{2}\braket{\bar{\phi}_{\bar{i}}}(\partial_{j}V)
+        \nonumber
+        \\
+        &\qquad
+        \nonumber
+        +
+        \bar{\phi}_{\bar{i}}\phi_{j}V
+        +
+        \braket{\bar{\phi}_{\bar{i}}}\phi_{j}V
+        +
+        \bar{\phi}_{\bar{i}}\braket{\phi_{j}}V
+        +
+        \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V
+        \\
+        &\qquad\nonumber
+        -
+        \frac{1}{\sqrt{2}}\bar{\phi}_{\bar{i}}(\partial_{j}V)V
+        -
+        \frac{1}{\sqrt{2}}\braket{\bar{\phi}_{\bar{i}}}(\partial_{j}V)V
+        -
+        \frac{1}{\sqrt{2}}\bar{\phi}_{\bar{i}}V(\partial_{j}V)
+        -
+        \frac{1}{\sqrt{2}}\braket{\bar{\phi}_{\bar{i}}}V(\partial_{j}V)
+        \\
+        &\qquad\nonumber
+        +
+        \frac{1}{2}\bar{\phi}_{\bar{i}}\phi_{j}V^2
+        +
+        \frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}\phi_{j}V^2
+        +
+        \frac{1}{2}\bar{\phi}_{\bar{i}}\braket{\phi_{j}}V^2
+        +
+        \frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V^2
+        \\
+        &\qquad\nonumber
+            -
+            \sqrt{2}(\bar{\partial}_{\bar{i}}V)\phi_{j}
+            -
+            \sqrt{2}(\bar{\partial}_{\bar{i}}V)\braket{\phi_{j}}
+            +
+            (\bar{\partial}_{\bar{i}}V)(\partial_{j}V)
+        \\
+        &\qquad\nonumber
+            -
+            \sqrt{2}(\bar{\partial}_{\bar{i}}V)\phi_{j}V
+            -
+            \sqrt{2}(\bar{\partial}_{\bar{i}}V)\braket{\phi_{j}}V
+        \\
+        &\qquad
+            -
+            \bar{\phi}_{\bar{i}}V\phi_{j}
+            -
+            \braket{\bar{\phi}_{\bar{i}}}V\phi_{j}
+            -
+            \bar{\phi}_{\bar{i}}V\braket{\phi_{j}}
+            -
+            \braket{\bar{\phi}_{\bar{i}}}V\braket{\phi_{j}}
+            +
+            \sqrt{2}\bar{\phi}_{\bar{i}}
+            V
+            \partial_{j}V
+            +
+            \sqrt{2}\braket{\bar{\phi}_{\bar{i}}}
+            V
+            \partial_{j}V
+        \nonumber
+        \\
+        &\qquad\nonumber
+            -
+            \bar{\phi}_{\bar{i}}
+            V
+            \phi_{j}
+            V
+            -
+            \braket{\bar{\phi}_{\bar{i}}}
+            V
+            \phi_{j}
+            V
+            -
+            \bar{\phi}_{\bar{i}}
+            V
+            \braket{\phi_{j}}
+            V
+            -
+            \braket{\bar{\phi}_{\bar{i}}}
+            V
+            \braket{\phi_{j}}
+        V
+        \\
+        &\qquad\nonumber
+            +
+            \frac{1}{\sqrt{2}}
+            (\bar{\partial}_{\bar{i}}V)V\phi_{j}
+            +
+            \frac{1}{\sqrt{2}}
+            (\bar{\partial}_{\bar{i}}V)V\braket{\phi_{j}}
+            +
+            \frac{1}{\sqrt{2}}V(\bar{\partial}_{\bar{i}}V)\phi_{j}
+            +
+            \frac{1}{\sqrt{2}}V(\bar{\partial}_{\bar{i}}V)\braket{\phi_{j}}
+        \\
+        &\qquad
+        \left.\vphantom{\frac{1}{2}}
+            +
+            \frac{1}{2}\bar{\phi}_{\bar{i}}V^2\phi_{j}
+            +
+            \frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}V^2\phi_{j}
+            +
+            \frac{1}{2}\bar{\phi}_{\bar{i}}V^2\braket{\phi_{j}}
+            +
+            \frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}V^2\braket{\phi_{j}}
+        \right]
+        \nonumber
+        \\
+        &=\frac{2}{g^2}
+    \end{align}
 $$
 
 
