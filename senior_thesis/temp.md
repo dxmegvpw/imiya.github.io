@@ -9,7 +9,7 @@ We feel frustrated with the challenging computations involved in studying SUSY. 
 
 ## Derivation of the  zero-mode equations
 
-10D SYM action in $\mathcal{N}=1$ is given by
+10D SYM action in $$\mathcal{N}=1$$ is given by
 $$
     \begin{equation}
         S
@@ -93,7 +93,7 @@ $$
         .
     \end{align}
 $$
-The term $\mathcal{K}_\text{WZW}$ is so called Wess-Zumino-Witten term which vanishes when we take Wess-Zumino gauge
+The term $$\mathcal{K}_\text{WZW}$$ is so called Wess-Zumino-Witten term which vanishes when we take Wess-Zumino gauge
 $$
     \begin{align}
         V
@@ -544,7 +544,7 @@ $$
         &=
         \frac{2}{g^2}h^{\bar{i}j}
         \text{Tr}\ \left[\vphantom{\frac{1}{2}}\right.
-            \bar{\phi}_{\bar{i}}\phi_{j}
+            \underline{\bar{\phi}_{\bar{i}}\phi_{j}}
             +
             \braket{\bar{\phi}_{\bar{i}}}\phi_{j}
             +        
@@ -552,47 +552,47 @@ $$
             +
             \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}
             -
-            \sqrt{2}\bar{\phi}_{\bar{i}}(\partial_{j}V)
+            \underline{\sqrt{2}\bar{\phi}_{\bar{i}}(\partial_{j}V)}
             -
-            \sqrt{2}\braket{\bar{\phi}_{\bar{i}}}(\partial_{j}V)
+            \underline{\sqrt{2}\braket{\bar{\phi}_{\bar{i}}}(\partial_{j}V)}
         \nonumber
         \\
         &\qquad
         \nonumber
-        +
-        \bar{\phi}_{\bar{i}}\phi_{j}V
-        +
-        \braket{\bar{\phi}_{\bar{i}}}\phi_{j}V
-        +
-        \bar{\phi}_{\bar{i}}\braket{\phi_{j}}V
-        +
-        \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V
+            +
+            \bar{\phi}_{\bar{i}}\phi_{j}V
+            +
+            \underline{\braket{\bar{\phi}_{\bar{i}}}\phi_{j}V}
+            +
+            \bar{\phi}_{\bar{i}}\braket{\phi_{j}}V
+            +
+            \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V
+            \\
+            &\qquad\nonumber
+            -
+            \frac{1}{\sqrt{2}}\bar{\phi}_{\bar{i}}(\partial_{j}V)V
+            -
+            \frac{1}{\sqrt{2}}\braket{\bar{\phi}_{\bar{i}}}(\partial_{j}V)V
+            -
+            \frac{1}{\sqrt{2}}\bar{\phi}_{\bar{i}}V(\partial_{j}V)
+            -
+            \frac{1}{\sqrt{2}}\braket{\bar{\phi}_{\bar{i}}}V(\partial_{j}V)
         \\
         &\qquad\nonumber
-        -
-        \frac{1}{\sqrt{2}}\bar{\phi}_{\bar{i}}(\partial_{j}V)V
-        -
-        \frac{1}{\sqrt{2}}\braket{\bar{\phi}_{\bar{i}}}(\partial_{j}V)V
-        -
-        \frac{1}{\sqrt{2}}\bar{\phi}_{\bar{i}}V(\partial_{j}V)
-        -
-        \frac{1}{\sqrt{2}}\braket{\bar{\phi}_{\bar{i}}}V(\partial_{j}V)
-        \\
-        &\qquad\nonumber
-        +
-        \frac{1}{2}\bar{\phi}_{\bar{i}}\phi_{j}V^2
-        +
-        \frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}\phi_{j}V^2
-        +
-        \frac{1}{2}\bar{\phi}_{\bar{i}}\braket{\phi_{j}}V^2
-        +
-        \frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V^2
+            +
+            \frac{1}{2}\bar{\phi}_{\bar{i}}\phi_{j}V^2
+            +
+            \frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}\phi_{j}V^2
+            +
+            \frac{1}{2}\bar{\phi}_{\bar{i}}\braket{\phi_{j}}V^2
+            +
+            \frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V^2
         \\
         &\qquad\nonumber
             -
-            \sqrt{2}(\bar{\partial}_{\bar{i}}V)\phi_{j}
+            \underline{\sqrt{2}(\bar{\partial}_{\bar{i}}V)\phi_{j}}
             -
-            \sqrt{2}(\bar{\partial}_{\bar{i}}V)\braket{\phi_{j}}
+            \underline{\sqrt{2}(\bar{\partial}_{\bar{i}}V)\braket{\phi_{j}}}
             +
             (\bar{\partial}_{\bar{i}}V)(\partial_{j}V)
         \\
@@ -606,7 +606,7 @@ $$
             -
             \bar{\phi}_{\bar{i}}V\phi_{j}
             -
-            \braket{\bar{\phi}_{\bar{i}}}V\phi_{j}
+            \underline{\braket{\bar{\phi}_{\bar{i}}}V\phi_{j}}
             -
             \bar{\phi}_{\bar{i}}V\braket{\phi_{j}}
             -
@@ -669,10 +669,13 @@ $$
         \nonumber
         \\
         &=
-        \frac{2}{g^2}
+        \frac{2}{g^2}h^{\bar{i}j}\text{Tr}\left[\right.
+            \bar{\phi}_{\bar{i}}\phi_{j}
+            +
+            \sqrt{2}(\bar{\partial}_{\bar{i}}\phi_{j}+\partial_{j}\bar{\phi}_{\bar{i}})V
     \end{align}
 $$
-
+Note that we have used the cyclic property of the trace $$\text{Tr}AB=\text{Tr}BA$$.
 
 
 
