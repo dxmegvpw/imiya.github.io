@@ -285,13 +285,20 @@ $$
         .
     \end{align}
 $$
-The term including $\text{Tr}\ \mathcal{W}^{\alpha}\mathcal{W}_{\alpha}$ and its hermitian conjugate is well-known[2]. That is
+The term including $\text{Tr}\ \mathcal{W}^{\alpha}\mathcal{W}_{\alpha}$ and its hermitian conjugate is well-known[^2]. That is
 $$
     \begin{equation}
         \text{Tr}\ 
         \mathcal{W}^{\alpha}
         \mathcal{W}_{\alpha}
         =
+        2
+        \text{Tr}
+        \left[
+            D^2
+            +
+            \cdots
+        \right]
     \end{equation}
 $$
 and the variation of the action is
@@ -332,7 +339,7 @@ $$
         \right)
     \end{equation}
 $$
-for the equation of motion with respect to the auxiliary $D$.
+for the equation of motion with respect to the auxiliary $D$. Let us move on to the computation for the auxiliary $F_i$. $F_{i}$ is included by the superfield $\phi_{i}$, so 
 
 ### Lagrangian with the field fluctuations
 
@@ -356,6 +363,6 @@ for the equation of motion with respect to the auxiliary $D$.
 
 2. J. Wess and J. Bagger, *"Supersymmetry and Supergravity."* Princeton, N.J: Princeton University Press, 1992.
 
-
-
 [^1]: If there are two $V$'s, for instance $\bar{\phi}_{\bar{i}}(\partial_{j}V)V$ or $\bar{\phi}_{\bar{i}}\phi_{j}V^2$, the term must not have the $D$ for the highest components. The term higher than $V^3$ should vanish by WZ gauge fixing, and no $V$ term also does not have the contribution for the equation of motion.
+
+[^2]: Refer the exercise 2 in Section 7 in the textbook[2].
