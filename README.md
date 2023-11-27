@@ -12,5 +12,7 @@ I would like to make a note of how to use it.
 
 ### Markdown
 
+If you see an error in your editor, don't worry about it.
+
 - inline equation $\rightarrow$ $$...$$
 - `[text](URL)`

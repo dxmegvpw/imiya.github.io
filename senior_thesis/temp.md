@@ -560,33 +560,33 @@ $$
         &\qquad
         \nonumber
             +
-            \bar{\phi}_{\bar{i}}\phi_{j}V
+            \underline{\bar{\phi}_{\bar{i}}\phi_{j}V}
             +
             \underline{\braket{\bar{\phi}_{\bar{i}}}\phi_{j}V}
             +
-            \bar{\phi}_{\bar{i}}\braket{\phi_{j}}V
+            \underline{\bar{\phi}_{\bar{i}}\braket{\phi_{j}}V}
             +
             \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V
             \\
-            &\qquad\nonumber
+        &\qquad\nonumber
             -
-            \frac{1}{\sqrt{2}}\bar{\phi}_{\bar{i}}(\partial_{j}V)V
+            \underline{\frac{1}{\sqrt{2}}\bar{\phi}_{\bar{i}}(\partial_{j}V)V}
             -
-            \frac{1}{\sqrt{2}}\braket{\bar{\phi}_{\bar{i}}}(\partial_{j}V)V
+            \underline{\frac{1}{\sqrt{2}}\braket{\bar{\phi}_{\bar{i}}}(\partial_{j}V)V}
             -
-            \frac{1}{\sqrt{2}}\bar{\phi}_{\bar{i}}V(\partial_{j}V)
+            \underline{\frac{1}{\sqrt{2}}\bar{\phi}_{\bar{i}}V(\partial_{j}V)}
             -
-            \frac{1}{\sqrt{2}}\braket{\bar{\phi}_{\bar{i}}}V(\partial_{j}V)
+            \underline{\frac{1}{\sqrt{2}}\braket{\bar{\phi}_{\bar{i}}}V(\partial_{j}V)}
         \\
         &\qquad\nonumber
             +
-            \frac{1}{2}\bar{\phi}_{\bar{i}}\phi_{j}V^2
+            \underline{\frac{1}{2}\bar{\phi}_{\bar{i}}\phi_{j}V^2}
             +
-            \frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}\phi_{j}V^2
+            \underline{\frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}\phi_{j}V^2}
             +
-            \frac{1}{2}\bar{\phi}_{\bar{i}}\braket{\phi_{j}}V^2
+            \underline{\frac{1}{2}\bar{\phi}_{\bar{i}}\braket{\phi_{j}}V^2}
             +
-            \frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V^2
+            \underline{\frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V^2}
         \\
         &\qquad\nonumber
             -
@@ -594,13 +594,13 @@ $$
             -
             \underline{\sqrt{2}(\bar{\partial}_{\bar{i}}V)\braket{\phi_{j}}}
             +
-            (\bar{\partial}_{\bar{i}}V)(\partial_{j}V)
+            \underline{(\bar{\partial}_{\bar{i}}V)(\partial_{j}V)}
         \\
         &\qquad\nonumber
             -
-            \sqrt{2}(\bar{\partial}_{\bar{i}}V)\phi_{j}V
+            \underline{\sqrt{2}(\bar{\partial}_{\bar{i}}V)\phi_{j}V}
             -
-            \sqrt{2}(\bar{\partial}_{\bar{i}}V)\braket{\phi_{j}}V
+            \underline{\sqrt{2}(\bar{\partial}_{\bar{i}}V)\braket{\phi_{j}}V}
         \\
         &\qquad
             -
@@ -608,76 +608,212 @@ $$
             -
             \underline{\braket{\bar{\phi}_{\bar{i}}}V\phi_{j}}
             -
-            \bar{\phi}_{\bar{i}}V\braket{\phi_{j}}
+            \underline{\bar{\phi}_{\bar{i}}V\braket{\phi_{j}}}
             -
             \braket{\bar{\phi}_{\bar{i}}}V\braket{\phi_{j}}
             +
-            \sqrt{2}\bar{\phi}_{\bar{i}}
+            \underline{\sqrt{2}\bar{\phi}_{\bar{i}}
             V
-            \partial_{j}V
+            \partial_{j}V}
             +
-            \sqrt{2}\braket{\bar{\phi}_{\bar{i}}}
+            \underline{\sqrt{2}\braket{\bar{\phi}_{\bar{i}}}
             V
-            \partial_{j}V
+            \partial_{j}V}
         \nonumber
         \\
         &\qquad\nonumber
             -
-            \bar{\phi}_{\bar{i}}
+            \underline{\bar{\phi}_{\bar{i}}
             V
             \phi_{j}
-            V
+            V}
             -
-            \braket{\bar{\phi}_{\bar{i}}}
+            \underline{\braket{\bar{\phi}_{\bar{i}}}
             V
             \phi_{j}
-            V
+            V}
             -
-            \bar{\phi}_{\bar{i}}
+            \underline{\bar{\phi}_{\bar{i}}
             V
             \braket{\phi_{j}}
-            V
+            V}
             -
-            \braket{\bar{\phi}_{\bar{i}}}
+            \underline{\braket{\bar{\phi}_{\bar{i}}}
             V
-            \braket{\phi_{j}}
+            \braket{\phi_{j}}}
         V
         \\
         &\qquad\nonumber
             +
-            \frac{1}{\sqrt{2}}
-            (\bar{\partial}_{\bar{i}}V)V\phi_{j}
+            \underline{\frac{1}{\sqrt{2}}
+            (\bar{\partial}_{\bar{i}}V)V\phi_{j}}
             +
-            \frac{1}{\sqrt{2}}
-            (\bar{\partial}_{\bar{i}}V)V\braket{\phi_{j}}
+            \underline{\frac{1}{\sqrt{2}}
+            (\bar{\partial}_{\bar{i}}V)V\braket{\phi_{j}}}
             +
-            \frac{1}{\sqrt{2}}V(\bar{\partial}_{\bar{i}}V)\phi_{j}
+            \underline{\frac{1}{\sqrt{2}}V(\bar{\partial}_{\bar{i}}V)\phi_{j}}
             +
-            \frac{1}{\sqrt{2}}V(\bar{\partial}_{\bar{i}}V)\braket{\phi_{j}}
+            \underline{\frac{1}{\sqrt{2}}V(\bar{\partial}_{\bar{i}}V)\braket{\phi_{j}}}
         \\
         &\qquad
+            +
+            \underline{\frac{1}{2}\bar{\phi}_{\bar{i}}V^2\phi_{j}}
+            +
+            \underline{\frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}V^2\phi_{j}}
+            +
+            \underline{\frac{1}{2}\bar{\phi}_{\bar{i}}V^2\braket{\phi_{j}}}
+            +
+            \underline{\frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}V^2\braket{\phi_{j}}}
         \left.\vphantom{\frac{1}{2}}
-            +
-            \frac{1}{2}\bar{\phi}_{\bar{i}}V^2\phi_{j}
-            +
-            \frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}V^2\phi_{j}
-            +
-            \frac{1}{2}\bar{\phi}_{\bar{i}}V^2\braket{\phi_{j}}
-            +
-            \frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}V^2\braket{\phi_{j}}
         \right]
         \nonumber
         \\
         &=
-        \frac{2}{g^2}h^{\bar{i}j}\text{Tr}\left[\right.
+        \frac{2}{g^2}h^{\bar{i}j}\text{Tr}\left[\vphantom{\frac{1}{2}}\right.
             \bar{\phi}_{\bar{i}}\phi_{j}
             +
             \sqrt{2}(\bar{\partial}_{\bar{i}}\phi_{j}+\partial_{j}\bar{\phi}_{\bar{i}})V
+            +
+            [\bar{\phi}_{\bar{i}},\phi_{j}]V
+        \nonumber
+        \\
+        &\hspace{10pt}
+            +
+            \sqrt{2}
+            \left\{
+                \left(
+                    \bar{\partial}_{\bar{i}}\phi_{j}
+                    +
+                    \frac{1}{\sqrt{2}}[\braket{\bar{\phi}_{\bar{i}}},\phi_{j}]
+                \right)
+                +
+                \left(
+                    \partial_{j}\bar{\phi}_{\bar{i}}
+                    -
+                    \frac{1}{\sqrt{2}}[\braket{\phi_{j}},\bar{\phi}_{\bar{i}}]
+                \right)
+            \right\}
+            V
+        \nonumber
+        \\
+        &\hspace{10pt}
+            +
+            \left(
+                \bar{\partial}_{\bar{i}}V
+                +
+                \frac{1}{\sqrt{2}}[\braket{\bar{\phi}_{\bar{i}}},V]
+                +
+                \frac{1}{\sqrt{2}}[\bar{\phi}_{\bar{i}},V]
+            \right)
+            \left(
+                \partial_{j}V
+                -
+                \frac{1}{\sqrt{2}}[\braket{\phi_{j}},V]
+                -
+                \frac{1}{\sqrt{2}}[\phi_{j},V]
+            \right)
+        \left.\vphantom{\frac{1}{2}}\right]
+        \nonumber
+        \\
+        &\quad
+        +
+        \frac{2}{g^2}h^{\bar{i}j}\text{Tr}\ \left[\vphantom{\frac{1}{2}}\right.
+            \braket{\bar{\phi}_{\bar{i}}}\phi_{j}
+            +        
+            \bar{\phi}_{\bar{i}}\braket{\phi_{j}}
+            +
+            \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}
+        \nonumber
+        \\
+        &\hspace{100pt}
+            +
+            \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V
+            -
+            \bar{\phi}_{\bar{i}}V\phi_{j}
+            -
+            \braket{\bar{\phi}_{\bar{i}}}V\braket{\phi_{j}}
+        \left.\vphantom{\frac{1}{2}}\right]
+        \\
+        &\equiv
+        \mathcal{K}^{(0)}+\mathcal{K}^{(D)}
+        ,
+        \nonumber
     \end{align}
 $$
-Note that we have used the cyclic property of the trace $$\text{Tr}AB=\text{Tr}BA$$.
+where
+$$
+    \begin{align}
+        \mathcal{K}^{(0)}
+        &=
+        \frac{2}{g^2}h^{\bar{i}j}\text{Tr}\left[\vphantom{\frac{1}{2}}\right.
+            \bar{\phi}_{\bar{i}}\phi_{j}
+            +
+            \sqrt{2}(\bar{\partial}_{\bar{i}}\phi_{j}+\partial_{j}\bar{\phi}_{\bar{i}})V
+            +
+            [\bar{\phi}_{\bar{i}},\phi_{j}]V
+        \nonumber
+        \\
+        &\hspace{5pt}
+            +
+            \sqrt{2}
+            \left\{
+                \left(
+                    \bar{\partial}_{\bar{i}}\phi_{j}
+                    +
+                    \frac{1}{\sqrt{2}}[\braket{\bar{\phi}_{\bar{i}}},\phi_{j}]
+                \right)
+                +
+                \left(
+                    \partial_{j}\bar{\phi}_{\bar{i}}
+                    -
+                    \frac{1}{\sqrt{2}}[\braket{\phi_{j}},\bar{\phi}_{\bar{i}}]
+                \right)
+            \right\}
+            V
+        \nonumber
+        \\
+        &\hspace{5pt}
+            +
+            \left(
+                \bar{\partial}_{\bar{i}}V
+                +
+                \frac{1}{\sqrt{2}}[\braket{\bar{\phi}_{\bar{i}}},V]
+                +
+                \frac{1}{\sqrt{2}}[\bar{\phi}_{\bar{i}},V]
+            \right)
+            \left(
+                \partial_{j}V
+                -
+                \frac{1}{\sqrt{2}}[\braket{\phi_{j}},V]
+                -
+                \frac{1}{\sqrt{2}}[\phi_{j},V]
+            \right)
+        \left.\vphantom{\frac{1}{2}}\right]
+        \nonumber
+        \\
+        \mathcal{K}^{(D)}
+        &=        
+        \frac{2}{g^2}h^{\bar{i}j}\text{Tr}\ \left[\vphantom{\frac{1}{2}}\right.
+            \braket{\bar{\phi}_{\bar{i}}}\phi_{j}
+            +        
+            \bar{\phi}_{\bar{i}}\braket{\phi_{j}}
+            +
+            \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}
+        \nonumber
+        \\
+        &\hspace{100pt}
+            +
+            \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V
+            -
+            \bar{\phi}_{\bar{i}}V\phi_{j}
+            -
+            \braket{\bar{\phi}_{\bar{i}}}V\braket{\phi_{j}}
+        \left.\vphantom{\frac{1}{2}}\right]
+    \end{align}
+$$
+Note that we have used the cyclic property of the trace $$\text{Tr}AB=\text{Tr}BA$$, and the underline $$\underline{\cdots}$$ at the first line is the non-zero term.
 
-
+### Do $$\mathcal{K}^{(D)}$$ and $$\mathcal{W}^{(F)}$$ really vanish?
 
 
 
