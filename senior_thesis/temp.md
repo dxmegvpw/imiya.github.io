@@ -352,7 +352,7 @@ $$
         .
     \end{equation}
 $$
-From superpotential
+From superpotential, we can get the term related auxiliary $F$ as
 $$
     \begin{align}
         \mathcal{W}
@@ -396,7 +396,7 @@ $$
                 A_{i}[A_{j},F_{k}]
             \right)
         \right]
-        \nonumber
+        ,
         \\
         \overline{\mathcal{W}}
         &\sim
@@ -424,14 +424,103 @@ $$
                 \bar{A}_{\bar{i}}[\bar{A}_{\bar{j}},\bar{F}_{\bar{k}}]
             \right)
         \right]
+        .
     \end{align}
 $$
-
-
-
-
-
-
+By derivating to the $F_{i}$, the term in the action become separetly
+$$
+    \begin{align}
+        \frac{\delta}{\delta F_{i}}
+        \int\text{d}^{10}X\sqrt{-G}\int\text{d}^{4}\theta\ \mathcal{K}
+        &=
+        \sqrt{-G}\frac{2}{g^2}
+        \frac{\delta}{\delta F_{i}}
+        h^{\bar{a}b}\text{Tr}\ 
+        \bar{F}_{\bar{a}}F_{b}    
+        \nonumber    
+        \\
+        &=
+        \sqrt{-G}\frac{2}{g^2}
+        h^{\bar{j}i}
+        \text{Tr}\ \bar{F}_{\bar{j}}
+        ,
+        \\
+        \frac{\delta}{\delta F_{i}}
+        \int\text{d}^{10}X\sqrt{-G}\int\text{d}^{2}\theta\ \mathcal{W}
+        &=
+        \sqrt{-G}\frac{1}{g^2}
+        \varepsilon^{\text{ijk}}
+        e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}}        
+        \frac{\delta}{\delta F_{i}}
+        \text{Tr}\ 
+        \left[
+            \vphantom{\frac{1}{6}}
+            A_{i}\partial_{j}F_{k}
+            +
+            F_{i}\partial_{j}A_{k}
+        \right.
+        \nonumber
+        \\
+        &\hspace{30pt}
+        \left.
+            -
+            \frac{1}{6}
+            \left(
+                F_{i}[A_{j},A_{k}]
+                +
+                A_{i}[F_{j},A_{k}]
+                +
+                A_{i}[A_{j},F_{k}]
+            \right)
+        \right]
+        \nonumber
+        \\
+        &=
+        \sqrt{-G}\frac{1}{g^2}
+        \varepsilon^{\text{ijk}}
+        e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}} 
+        \text{Tr}\ 
+        \left[
+            2\partial_{j}A_{k}
+            -
+            \frac{1}{2}[A_{j},A_{k}]
+        \right]
+        .
+    \end{align}
+$$
+Note that we have interchanged the dummy indices for several times after derivating. At last, the equation of motion with respect to the $F_{i}$
+$$
+    \begin{equation}
+        h^{\bar{j}i}\bar{F}_{\bar{j}}
+        +        
+        \varepsilon^{\text{ijk}}
+        e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}} 
+        \left[
+            \partial_{j}A_{k}
+            -
+            \frac{1}{4}[A_{j},A_{k}]     
+        \right]
+        =
+        0   
+    \end{equation}
+$$
+or equivalently
+$$
+    \begin{equation}
+        \bar{F}_{\bar{i}}
+        =
+        -
+        h_{j\bar{i}}
+        \varepsilon^{\text{jkl}}
+        e^{\ j}_{\text{j}}e^{\ k}_{\text{k}}e^{\ l}_{\text{l}}
+        \left[
+            \partial_{k}A_{l}
+            -
+            \frac{1}{4}[A_{k},A_{l}]     
+        \right]
+    \end{equation}
+$$
+holds.
 
 ### Lagrangian with the field fluctuations
 
