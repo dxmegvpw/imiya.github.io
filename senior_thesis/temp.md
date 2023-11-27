@@ -5,9 +5,9 @@ title: Senior thesis
 
 # Detail of the computation
 
-We feel frustration with the challenging computations involved in studying SUSY. I will document the process of such challenging computations.
+We feel frustrated with the challenging computations involved in studying SUSY. I will document the process of such challenging computations.
 
-## Deriving zero-mode equations
+## Derivation of the  zero-mode equations
 
 10D SYM action in $\mathcal{N}=1$ is given by
 $$
@@ -57,7 +57,7 @@ $$
                 +
                 \phi_{j}
             )
-            e^{-V}
+            e^{V}
             \right\}
         \right.
         \nonumber
@@ -105,7 +105,7 @@ $$
         -
         i\theta\theta\overline{\theta\lambda}_{0}
         +
-        \frac{1}{2}\theta\theta\overline{\theta\theta}
+        \frac{1}{2}\theta\theta\overline{\theta\theta}D
         ,
         \\
         \phi_{i}
@@ -118,6 +118,201 @@ $$
         \theta\theta F_{i}.
     \end{align}
 $$
+
+### SUSY condition
+
+By carrying out the derivative with respect to the $F_{i}$ and $D_{i}$, we can obtain the on-shell relation of the auxiliary fields. First, let us focus on the Kahler potential. The term inside the trace become
+$$
+    \begin{align}
+        &\hspace{10pt}
+        \left\{
+            (
+                \sqrt{2}\bar{\partial_{\bar{i}}}
+                +
+                \bar{\phi}_{\bar{i}}
+            )
+            e^{-V}
+        \right\}
+        \left\{
+            (
+                \sqrt{2}\partial_{j}
+                +
+                \phi_{j}
+            )
+            e^{V}
+            \right\}
+            +
+            (
+                \bar{\partial}_{\bar{i}}e^{-V}
+            )
+            (
+                \partial_{j}e^{V}
+            )
+        \nonumber
+        \\
+        &=
+        \left\{
+            (
+                \sqrt{2}\bar{\partial_{\bar{i}}}
+                +
+                \bar{\phi}_{\bar{i}}
+            )
+            \left(
+                1-V+\frac{1}{2}V^2
+            \right)
+        \right\}
+        \left\{
+            (
+                \sqrt{2}\partial_{j}
+                +
+                \phi_{j}
+            )
+            \left(
+                1+V+\frac{1}{2}V^2
+            \right)
+        \right\}
+        \nonumber
+        \\
+        &\hspace{50pt}
+        +
+        \bar{\partial}_{\bar{i}}
+            \left(
+                1-V+\frac{1}{2}V^2
+            \right)
+        \partial_{j}
+            \left(
+                1+V+\frac{1}{2}V^2
+            \right)
+        \nonumber
+        \\
+        &=
+        \bar{\phi}_{\bar{i}}\phi_{j}
+        -
+        \sqrt{2}\bar{\phi}_{\bar{i}}(\partial_{j}V)
+        +
+        \bar{\phi}_{\bar{i}}\phi_{j}V
+        -
+        \frac{1}{\sqrt{2}}\bar{\phi}_{\bar{i}}(\partial_{j}V)V
+        -
+        \frac{1}{\sqrt{2}}\bar{\phi}_{\bar{i}}V(\partial_{j}V)+\frac{1}{2}\bar{\phi}_{\bar{i}}\phi_{j}V^2
+        \nonumber
+        \\
+        &\quad
+        -
+        \sqrt{2}(\bar{\partial}_{\bar{i}}V)\phi_{j}
+        +
+        (\bar{\partial}_{\bar{i}}V)(\partial_{j}V)
+        -
+        \sqrt{2}(\bar{\partial}_{\bar{i}}V)\phi_{j}V
+        -
+        \bar{\phi}_{\bar{i}}V\phi_{j}
+        +
+        \sqrt{2}\bar{\phi}_{\bar{i}}
+        V
+        \partial_{j}V
+        \nonumber
+        \\
+        &\quad
+        -
+        \bar{\phi}_{\bar{i}}
+        V
+        \phi_{j}
+        V
+        +
+        \frac{1}{\sqrt{2}}
+        (\bar{\partial}_{\bar{i}}V)V\phi_{j}
+        +
+        \frac{1}{\sqrt{2}}V(\bar{\partial}_{\bar{i}}V)\phi_{j}
+        +
+        \frac{1}{2}\bar{\phi}_{\bar{i}}V^2\phi_{j}
+        .
+    \end{align}
+$$
+This is the only term that contain the auxiliary $D$. Note that the action $S$ contains only the highest term $\theta^4$ from the Kahler potential $\mathcal{K}$. Thus when we take the derivative to the $D$, the term which has only one $V$ will remain[^1]. So we find
+$$
+    \begin{align}
+        \frac{\delta \mathcal{S}}{\delta D}
+        &=        
+        \sqrt{-G}      
+        \frac{2}{g^2}
+        h^{\bar{i}j}
+        \left[
+            \partial_{j}\bar{A}_{\bar{i}}
+            +
+            \frac{1}{2}\bar{A}_{\bar{i}}A_{j}
+            +
+            \bar{\partial}_{\bar{i}}A_{j}
+            -
+            \frac{1}{2}A_{j}\bar{A}_{\bar{i}}
+        \right]
+        \nonumber
+        \\
+        &\hspace{20pt}+
+        \frac{1}{4g^2}
+        \frac{\delta}{\delta D}
+        \int\text{d}^{10}X\sqrt{-G}
+        \left[
+            \int\text{d}^{2}\theta\ \text{Tr}\mathcal{W}^{\alpha}\mathcal{W}_{\alpha}
+            +  
+            \int\text{d}^{2}\bar{\theta}\ \text{Tr}\overline{\mathcal{W}_{\dot{\alpha}}\mathcal{W}^{\dot{\alpha}}}
+        \right]
+        .
+    \end{align}
+$$
+Note that we should be careful about the derivatives of the term like $\bar{\phi}_{\bar{i}}V\phi_{j}$. We derivate with respect to the auxiliary $D$, but it actually has the indices of the gauge group, $D_{AB}$. Therefore we obtain
+$$
+    \begin{align}    
+        \left.
+        \frac{\delta}{\delta D_{AB}}
+        \text{Tr}
+        \left[\bar{\phi}_{\bar{i}}V\phi_{j}\right]
+        \right|_{\theta^4}
+        &=
+        \frac{1}{2}
+        \frac{\delta}{\delta D_{AB}} 
+        (\bar{A}_{\bar{i}})_{CD}    
+        (D)_{DE} 
+        (A_{j})_{EC}
+        \nonumber
+        \\
+        &=
+        \frac{1}{2}
+        (\bar{A}_{\bar{i}})_{CA}    
+        (A_{j})_{BC}
+        =
+        \frac{1}{2}
+        (A_{j}\bar{A}_{\bar{i}})_{AB}
+        .
+    \end{align}
+$$
+The term including $\text{Tr}\mathcal{W}^{\alpha}\mathcal{W}_{\alpha}$  and its hermitian conjugate is well-known[2]. That is
+$$
+    \begin{align}
+        \frac{\delta S}{\delta D}
+        =
+    \end{align}
+$$
+Finally we get
+$$
+    \begin{equation}
+        D
+        =
+        -h^{\bar{i}j}
+        \left(
+            \partial_{j}\bar{A}_{\bar{i}}
+            +
+            \bar{\partial}_{\bar{i}}A_{j}   
+            +
+            \frac{1}{2}[\bar{A}_{\bar{i}},A_{j}]
+        \right)
+    \end{equation}
+$$
+for the equation of motion with respect to the  auxiliary $D$.
+
+### Lagrangian with the field fluctuations
+
+
+
 
 
 
@@ -134,3 +329,8 @@ $$
 
 1. H. Abe, T. Kobayashi, H. Ohki, and K. Sumita, *“Superfield description of 10D SYM theory with magnetized extra dimensions,”* Nuclear Physics B, vol. 863, no. 1, pp. 1–18, Oct. 2012, [doi: 10.1016/j.nuclphysb.2012.05.012](https://www.sciencedirect.com/science/article/pii/S0550321312002714).
 
+2. J. Wess and J. Bagger, *"Supersymmetry and Supergravity."* Princeton, N.J: Princeton University Press, 1992.
+
+
+
+[^1]: If there are two $V$'s, for instance $\bar{\phi}_{\bar{i}}(\partial_{j}V)V$ or $\bar{\phi}_{\bar{i}}\phi_{j}V^2$, the term must not have the $D$ for the highest components. The term higher than $V^3$ should vanish by WZ gauge fixing, and no $V$ term also does not have the contribution for the equation of motion.
