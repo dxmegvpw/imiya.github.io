@@ -24,7 +24,7 @@ $$
                 \int\text{d}^{2}\theta
                 \left(
                     \frac{1}{4g^2}
-                    \mathcal{W}^{\alpha}\mathcal{W}_{\alpha}
+                    \text{Tr}\ \mathcal{W}^{\alpha}\mathcal{W}_{\alpha}
                     +
                     \mathcal{W}
                 \right)
@@ -32,9 +32,10 @@ $$
                 \text{h.c.}
             \right\}
         \right]
+        \label{eq:action}
     \end{equation}
 $$
-where
+where \eqref{eq:action}
 $$
     \begin{align}
         \mathcal{K}
@@ -252,9 +253,9 @@ $$
         \frac{\delta}{\delta D}
         \int\text{d}^{10}X\sqrt{-G}
         \left[
-            \int\text{d}^{2}\theta\ \text{Tr}\mathcal{W}^{\alpha}\mathcal{W}_{\alpha}
+            \int\text{d}^{2}\theta\ \text{Tr}\ \mathcal{W}^{\alpha}\mathcal{W}_{\alpha}
             +  
-            \int\text{d}^{2}\bar{\theta}\ \text{Tr}\overline{\mathcal{W}_{\dot{\alpha}}\mathcal{W}^{\dot{\alpha}}}
+            \int\text{d}^{2}\bar{\theta}\ \text{Tr}\ \overline{\mathcal{W}_{\dot{\alpha}}\mathcal{W}^{\dot{\alpha}}}
         \right]
         .
     \end{align}
@@ -285,11 +286,36 @@ $$
         .
     \end{align}
 $$
-The term including $\text{Tr}\mathcal{W}^{\alpha}\mathcal{W}_{\alpha}$  and its hermitian conjugate is well-known[2]. That is
+The term including $\text{Tr}\ \mathcal{W}^{\alpha}\mathcal{W}_{\alpha}$ and its hermitian conjugate is well-known [2]. That is
+$$
+    \begin{equation}
+        \text{Tr}\ 
+        \mathcal{W}^{\alpha}
+        \mathcal{W}_{\alpha}
+        =
+    \end{equation}
+$$
+and the variation of the action is
 $$
     \begin{align}
         \frac{\delta S}{\delta D}
         =
+        \sqrt{-G}\frac{2}{g^2}
+        \left[
+            D
+            +
+            h^{\bar{i}j}
+            \left(
+                \partial_{j}\bar{A}_{\bar{i}}
+                +
+                \bar{\partial}_{\bar{i}}A_{j}   
+                +
+                \frac{1}{2}[\bar{A}_{\bar{i}},A_{j}]
+            \right)
+        \right]
+        =
+        0
+        .
     \end{align}
 $$
 Finally we get
