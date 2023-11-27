@@ -228,7 +228,7 @@ $$
         .
     \end{align}
 $$
-This is the only term that contains the auxiliary $D$. Note that the action $S$ contains only the highest term $\theta^4$ from the Kahler potential $\mathcal{K}$. Thus when we take the derivative to the $D$, the term which has only one $V$ will remain[^1]. After integrating by parts, for removing the factor the derivative of vector superfield, we find
+This is the only term that contains the auxiliary $D$. Note that the action $S$ contains only the highest term $\theta^4$ from the Kahler potential $\mathcal{K}$. Thus when we take the derivative to the $D$, the term which has only one $V$ will remain[^1]. After integrating by parts, for removing the factor the derivative of vector superfield, for instance, the term $\bar{\phi}_{\bar{i}}(\partial_{j}V)$, we find
 $$
     \begin{align}
         \frac{\delta \mathcal{S}}{\delta D}
@@ -259,7 +259,7 @@ $$
         .
     \end{align}
 $$
-Note that we should be careful about the derivatives of the term like $\bar{\phi}_{\bar{i}}V\phi_{j}$. We derivate with respect to the auxiliary $D$, but it actually has the indices of the gauge group, $D_{AB}$. Therefore we obtain
+Note that we should be careful about the derivatives of the term like $\bar{\phi}_{\bar{i}}V \phi_{j}$. We derivate with respect to the auxiliary $D$, but it actually has the indices of the gauge group, $D_{AB}$. Therefore we obtain
 $$
     \begin{align}    
         \left.
@@ -339,7 +339,7 @@ $$
         \right)
     \end{equation}
 $$
-for the equation of motion with respect to the auxiliary $D$. Let us move on to the computation for the auxiliary $F_i$. $F_{i}$ is included by the superfield $\phi_{i}$ that appears only in Kahler potential $\mathcal{K}$ and super potential $\mathcal{W}$, not in field strength $\mathcal{W}^{\alpha}$. The highest component containing the auxiliary $F_{i}$ comes from the term $\bar{\phi}_{\bar{i}}\phi_{j}$ in Kahler potential. Thus the Lahler potential including $F$ is
+for the equation of motion with respect to the auxiliary $D$. Let us move on to the computation for the auxiliary $F_i$. $F_{i}$ is included by the superfield $\phi_{i}$ that appears only in Kahler potential $\mathcal{K}$ and super potential $\mathcal{W}$, not in field strength $\mathcal{W}^{\alpha}$. The highest component containing the auxiliary $F_{i}$ comes from the term $\bar{\phi}_{\bar{i}}\phi_{j}$ in Kahler potential. Thus the Kahler potential including $F$ is
 $$
     \begin{equation}
         \mathcal{K}
@@ -524,11 +524,15 @@ holds.
 
 ### Lagrangian with the field fluctuations
 
-VEV's are
+We set VEV'S for
 $$
     \begin{equation}
-        \ev{V}
+        \braket{V}
         =
+        0
+        ,\quad
+        \braket{\phi_{i}}
+        \neq 
         0
     \end{equation}
 $$
