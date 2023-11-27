@@ -17,7 +17,7 @@ $$
         \int\text{d}^{10}X
         \sqrt{-G}
         \left[
-            \int\text{d}^{4}\theta
+            \int\text{d}^{4}\theta\ 
             \mathcal{K}
             +
             \left\{
@@ -228,7 +228,7 @@ $$
         .
     \end{align}
 $$
-This is the only term that contains the auxiliary $D$. Note that the action $S$ contains only the highest term $\theta^4$ from the Kahler potential $\mathcal{K}$. Thus when we take the derivative to the $D$, the term which has only one $V$ will remain[^1]. So we find
+This is the only term that contains the auxiliary $D$. Note that the action $S$ contains only the highest term $\theta^4$ from the Kahler potential $\mathcal{K}$. Thus when we take the derivative to the $D$, the term which has only one $V$ will remain[^1]. After integrating by parts, for removing the factor the derivative of vector superfield, for instance, the term $\bar{\phi}_{\bar{i}}(\partial_{j}V)$, we find
 $$
     \begin{align}
         \frac{\delta \mathcal{S}}{\delta D}
@@ -339,7 +339,99 @@ $$
         \right)
     \end{equation}
 $$
-for the equation of motion with respect to the auxiliary $D$. Let us move on to the computation for the auxiliary $F_i$. $F_{i}$ is included by the superfield $\phi_{i}$, so 
+for the equation of motion with respect to the auxiliary $D$. Let us move on to the computation for the auxiliary $F_i$. $F_{i}$ is included by the superfield $\phi_{i}$ that appears only in Kahler potential $\mathcal{K}$ and super potential $\mathcal{W}$, not in field strength $\mathcal{W}^{\alpha}$. The highest component containing the auxiliary $F_{i}$ comes from the term $\bar{\phi}_{\bar{i}}\phi_{j}$ in Kahler potential. Thus the Lahler potential including $F$ is
+$$
+    \begin{equation}
+        \mathcal{K}
+        \sim
+        \frac{2}{g^2} h^{\bar{i}j}
+        \text{Tr}
+        \left[
+            \bar{F}_{\bar{i}}F_{j}
+        \right]
+        .
+    \end{equation}
+$$
+From superpotential
+$$
+    \begin{align}
+        \mathcal{W}
+        &=
+        \frac{1}{g^2}
+        \varepsilon^{\text{ijk}}
+        e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}}
+        \text{Tr}
+        \left[
+            \sqrt{2}\phi_{i}
+            \left(
+                \partial_{j}\phi_{k}
+                -
+                \frac{1}{3\sqrt{2}}[\phi_{j},\phi_{k}]
+            \right)
+        \right]
+        \nonumber
+        \\
+        &\sim
+        \frac{1}{g^2}
+        \varepsilon^{\text{ijk}}
+        e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}}
+        \text{Tr}
+        \left[
+            \vphantom{\frac{1}{6}}
+            A_{i}\partial_{j}F_{k}
+            +
+            F_{i}\partial_{j}A_{k}
+        \right.
+        \nonumber
+        \\
+        &\hspace{50pt}
+        \left.
+            -
+            \frac{1}{6}
+            \left(
+                F_{i}[A_{j},A_{k}]
+                +
+                A_{i}[F_{j},A_{k}]
+                +
+                A_{i}[A_{j},F_{k}]
+            \right)
+        \right]
+        \nonumber
+        \\
+        \overline{\mathcal{W}}
+        &\sim
+        \frac{1}{g^2}
+        \varepsilon^{\bar{\text{i}}\bar{\text{j}}\bar{\text{k}}}
+        e^{\ \bar{i}}_{\bar{\text{i}}}e^{\ \bar{j}}_{\bar{\text{j}}}e^{\ \bar{k}}_{\bar{\text{k}}}
+        \text{Tr}
+        \left[
+            \vphantom{\frac{1}{6}}
+            \bar{A}_{\bar{i}}\bar{\partial}_{\bar{j}}\bar{F}_{\bar{k}}
+            +
+            \bar{F}_{\bar{i}}\bar{\partial}_{\bar{j}}\bar{F}_{\bar{k}}
+        \right.
+        \nonumber
+        \\
+        &\hspace{50pt}
+        \left.
+            -
+            \frac{1}{6}
+            \left(
+                \bar{F}_{\bar{i}}[\bar{A}_{\bar{j}},\bar{A}_{\bar{k}}]
+                +
+                \bar{A}_{\bar{i}}[\bar{F}_{\bar{j}},\bar{A}_{\bar{k}}]
+                +
+                \bar{A}_{\bar{i}}[\bar{A}_{\bar{j}},\bar{F}_{\bar{k}}]
+            \right)
+        \right]
+    \end{align}
+$$
+
+
+
+
+
+
 
 ### Lagrangian with the field fluctuations
 
