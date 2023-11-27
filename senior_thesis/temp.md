@@ -668,7 +668,8 @@ $$
         \right]
         \nonumber
         \\
-        &=\frac{2}{g^2}
+        &=
+        \frac{2}{g^2}
     \end{align}
 $$
 
@@ -691,6 +692,6 @@ $$
 
 2. J. Wess and J. Bagger, *"Supersymmetry and Supergravity."* Princeton, N.J: Princeton University Press, 1992.
 
-[^1]: If there are two $V$'s, for instance $\bar{\phi}_{\bar{i}}(\partial_{j}V)V$ or $\bar{\phi}_{\bar{i}}\phi_{j}V^2$, the term must not have the $D$ for the highest components. The term higher than $V^3$ should vanish by WZ gauge fixing, and no $V$ term also does not have the contribution for the equation of motion.
+[^1]: If there are two $V$'s, for instance $$\bar{\phi}_{\bar{i}}(\partial_{j}V)V$$ or $$\bar{\phi}_{\bar{i}}\phi_{j}V^2$$, the term must not have the $D$ for the highest components. The term higher than $V^3$ should vanish by WZ gauge fixing, and no $V$ term also does not have the contribution for the equation of motion.
 
 [^2]: Refer the exercise 2 in Section 7 in the textbook[2].
