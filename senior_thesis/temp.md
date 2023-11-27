@@ -734,8 +734,9 @@ $$
             \braket{\bar{\phi}_{\bar{i}}}V\braket{\phi_{j}}
         \left.\vphantom{\frac{1}{2}}\right]
         \\
-        &=
+        &\equiv
         \mathcal{K}^{(0)}+\mathcal{K}^{(D)}
+        ,
         \nonumber
     \end{align}
 $$
@@ -743,7 +744,7 @@ where
 $$
     \begin{align}
         \mathcal{K}^{(0)}
-        &=
+        &\equiv
         \frac{2}{g^2}h^{\bar{i}j}\text{Tr}\left[\vphantom{\frac{1}{2}}\right.
             \bar{\phi}_{\bar{i}}\phi_{j}
             +
@@ -821,11 +822,13 @@ $$
         \varepsilon^{\text{ijk}}
         e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}}
         \text{Tr}
-        \left[
-            \sqrt{2}\phi_{i}\partial_{j}\phi_{k}
+        \left[\vphantom{\frac{1}{2}}\right.
+            \sqrt{2}(\phi_{i}+\braket{\phi_{i}})\partial_{j}\phi_{k}
+        \\
+        &\qquad
             -
-            \frac{1}{3}\phi_{i}[\phi_{j},\phi_{k}]
-        \right]
+            \frac{1}{3}(\phi_{i}+\braket{\phi_{i}})[\phi_{j}+\braket{\phi_{j}},\phi_{k}+\braket{\phi_{k}}]
+        \left.\vphantom{\frac{1}{2}}\right] 
         \nonumber
         \\
         &=
