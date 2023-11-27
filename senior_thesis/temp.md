@@ -733,6 +733,7 @@ $$
             -
             \braket{\bar{\phi}_{\bar{i}}}V\braket{\phi_{j}}
         \left.\vphantom{\frac{1}{2}}\right]
+        \nonumber
         \\
         &=
         \mathcal{K}^{(0)}+\mathcal{K}^{(D)}
@@ -772,7 +773,7 @@ $$
             V
         \nonumber
         \\
-        &\qquad
+        &\hspace{5pt}
             +
             \left(
                 \bar{\partial}_{\bar{i}}V
