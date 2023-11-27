@@ -733,11 +733,9 @@ $$
             -
             \braket{\bar{\phi}_{\bar{i}}}V\braket{\phi_{j}}
         \left.\vphantom{\frac{1}{2}}\right]
-        \nonumber
         \\
         &=
         \mathcal{K}^{(0)}+\mathcal{K}^{(D)}
-        ,
         \nonumber
     \end{align}
 $$
@@ -824,12 +822,9 @@ $$
         e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}}
         \text{Tr}
         \left[
-            \sqrt{2}\phi_{i}
-            \left(
-                \partial_{j}\phi_{k}
-                -
-                \frac{1}{3\sqrt{2}}[\phi_{j},\phi_{k}]
-            \right)
+            \sqrt{2}\phi_{i}\partial_{j}\phi_{k}
+            -
+            \frac{1}{3}\phi_{i}[\phi_{j},\phi_{k}]
         \right]
         \nonumber
         \\
