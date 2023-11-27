@@ -542,23 +542,9 @@ $$
     \begin{align}
         \mathcal{K}
         &=
-        \frac{2}{g^2}h^{\bar{i}j}
-        \text{Tr}\ \left[\vphantom{\frac{1}{2}}\right.
-            \underline{\bar{\phi}_{\bar{i}}\phi_{j}}
-            +
-            \braket{\bar{\phi}_{\bar{i}}}\phi_{j}
-            +        
-            \bar{\phi}_{\bar{i}}\braket{\phi_{j}}
-            +
-            \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}
-            -
-            \underline{\sqrt{2}\bar{\phi}_{\bar{i}}(\partial_{j}V)}
-            -
-            \underline{\sqrt{2}\braket{\bar{\phi}_{\bar{i}}}(\partial_{j}V)}
         \nonumber
         \\
         &\qquad
-        \nonumber
             +
             \underline{\bar{\phi}_{\bar{i}}\phi_{j}V}
             +
@@ -567,8 +553,9 @@ $$
             \underline{\bar{\phi}_{\bar{i}}\braket{\phi_{j}}V}
             +
             \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V
-            \\
-        &\qquad\nonumber
+        \nonumber
+        \\
+        &\qquad
             -
             \underline{\frac{1}{\sqrt{2}}\bar{\phi}_{\bar{i}}(\partial_{j}V)V}
             -
@@ -577,8 +564,9 @@ $$
             \underline{\frac{1}{\sqrt{2}}\bar{\phi}_{\bar{i}}V(\partial_{j}V)}
             -
             \underline{\frac{1}{\sqrt{2}}\braket{\bar{\phi}_{\bar{i}}}V(\partial_{j}V)}
+        \nonumber
         \\
-        &\qquad\nonumber
+        &\qquad
             +
             \underline{\frac{1}{2}\bar{\phi}_{\bar{i}}\phi_{j}V^2}
             +
@@ -587,20 +575,23 @@ $$
             \underline{\frac{1}{2}\bar{\phi}_{\bar{i}}\braket{\phi_{j}}V^2}
             +
             \underline{\frac{1}{2}\braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V^2}
+        \nonumber
         \\
-        &\qquad\nonumber
+        &\qquad
             -
             \underline{\sqrt{2}(\bar{\partial}_{\bar{i}}V)\phi_{j}}
             -
             \underline{\sqrt{2}(\bar{\partial}_{\bar{i}}V)\braket{\phi_{j}}}
             +
             \underline{(\bar{\partial}_{\bar{i}}V)(\partial_{j}V)}
+        \nonumber
         \\
-        &\qquad\nonumber
+        &\qquad
             -
             \underline{\sqrt{2}(\bar{\partial}_{\bar{i}}V)\phi_{j}V}
             -
             \underline{\sqrt{2}(\bar{\partial}_{\bar{i}}V)\braket{\phi_{j}}V}
+        \nonumber
         \\
         &\qquad
             -
@@ -621,7 +612,7 @@ $$
             \partial_{j}V}
         \nonumber
         \\
-        &\qquad\nonumber
+        &\qquad
             -
             \underline{\bar{\phi}_{\bar{i}}
             V
@@ -641,9 +632,10 @@ $$
             \underline{\braket{\bar{\phi}_{\bar{i}}}
             V
             \braket{\phi_{j}}}
-        V
+            V
+        \nonumber
         \\
-        &\qquad\nonumber
+        &\qquad
             +
             \underline{\frac{1}{\sqrt{2}}
             (\bar{\partial}_{\bar{i}}V)V\phi_{j}}
@@ -654,6 +646,7 @@ $$
             \underline{\frac{1}{\sqrt{2}}V(\bar{\partial}_{\bar{i}}V)\phi_{j}}
             +
             \underline{\frac{1}{\sqrt{2}}V(\bar{\partial}_{\bar{i}}V)\braket{\phi_{j}}}
+        \nonumber
         \\
         &\qquad
             +
@@ -744,7 +737,7 @@ where
 $$
     \begin{align}
         \mathcal{K}^{(0)}
-        &\equiv
+        &=
         \frac{2}{g^2}h^{\bar{i}j}\text{Tr}\left[\vphantom{\frac{1}{2}}\right.
             \bar{\phi}_{\bar{i}}\phi_{j}
             +
@@ -832,6 +825,19 @@ $$
         \nonumber
         \\
         &=
+        \frac{1}{g^2}
+        \varepsilon^{\text{ijk}}
+        e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}}
+        \text{Tr}
+        \left[\vphantom{\frac{1}{2}}\right.
+            \sqrt{2}\phi_{i}\partial_{j}\phi_{k}
+            +
+            \sqrt{2}\braket{\phi_{i}}\partial_{j}\phi_{k}
+        \\
+        &\qquad
+            -
+            \frac{1}{3}(\phi_{i}+\braket{\phi_{i}})[\phi_{j}+\braket{\phi_{j}},\phi_{k}+\braket{\phi_{k}}]
+        \left.\vphantom{\frac{1}{2}}\right] 
     \end{align}
 $$
 
