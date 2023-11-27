@@ -343,7 +343,7 @@ for the equation of motion with respect to the auxiliary $D$. Let us move on to 
 $$
     \begin{equation}
         \mathcal{K}
-        \sim
+        \rightarrow
         \frac{2}{g^2} h^{\bar{i}j}
         \text{Tr}
         \left[
@@ -371,7 +371,7 @@ $$
         \right]
         \nonumber
         \\
-        &\sim
+        &\rightarrow
         \frac{1}{g^2}
         \varepsilon^{\text{ijk}}
         e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}}
@@ -399,7 +399,7 @@ $$
         ,
         \\
         \overline{\mathcal{W}}
-        &\sim
+        &\rightarrow
         \frac{1}{g^2}
         \varepsilon^{\bar{\text{i}}\bar{\text{j}}\bar{\text{k}}}
         e^{\ \bar{i}}_{\bar{\text{i}}}e^{\ \bar{j}}_{\bar{\text{j}}}e^{\ \bar{k}}_{\bar{\text{k}}}
@@ -958,12 +958,13 @@ $$
         .
     \end{align}
 $$
+We have used the property that the indices $$i,j,k$$ are totally antisymmetric because of the codfficient $$\varepsilon^{\text{ijk}}$$ and the cyclicity inside the trace.
 
 ### Do $$\mathcal{K}^{(D)}$$ and $$\mathcal{W}^{(F)}$$ really vanish?
 
+We will check that $$\mathcal{K}^{(D)}$$ and $$\mathcal{W}^{(F)}$$ are vanished if we impose the SUSY condition.
 
-
-
+For
 
 
 

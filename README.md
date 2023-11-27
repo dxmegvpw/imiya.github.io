@@ -16,3 +16,4 @@ If you see an error in your editor, don't worry about it.
 
 - inline equation $\rightarrow$ $$...$$
 - `[text](URL)`
+- `[^1]` and `[^1]: text` 
