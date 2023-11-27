@@ -228,7 +228,7 @@ $$
         .
     \end{align}
 $$
-This is the only term that contains the auxiliary $D$. Note that the action $S$ contains only the highest term $\theta^4$ from the Kahler potential $\mathcal{K}$. Thus when we take the derivative to the $D$, the term which has only one $V$ will remain[^1]. After integrating by parts, for removing the factor the derivative of vector superfield, for instance, the term $\bar{\phi}_{\bar{i}}(\partial_{j}V)$, we find
+This is the only term that contains the auxiliary $D$. Note that the action $S$ contains only the highest term $\theta^4$ from the Kahler potential $\mathcal{K}$. Thus when we take the derivative to the $D$, the term which has only one $V$ will remain[^1]. After integrating by parts, for removing the factor the derivative of vector superfield, we find
 $$
     \begin{align}
         \frac{\delta \mathcal{S}}{\delta D}
@@ -524,6 +524,14 @@ holds.
 
 ### Lagrangian with the field fluctuations
 
+VEV's are
+$$
+    \begin{equation}
+        \ev{V}
+        =
+        0
+    \end{equation}
+$$
 
 
 
