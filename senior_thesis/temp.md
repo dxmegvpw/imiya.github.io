@@ -33,9 +33,10 @@ $$
             \right\}
         \right]
         \label{eq:action}
+        \tag{1}
     \end{equation}
 $$
-where \eqref{eq:action}
+where
 $$
     \begin{align}
         \mathcal{K}
@@ -286,7 +287,7 @@ $$
         .
     \end{align}
 $$
-The term including $\text{Tr}\ \mathcal{W}^{\alpha}\mathcal{W}_{\alpha}$ and its hermitian conjugate is well-known [2]. That is
+The term including $\text{Tr}\mathcal{W}^{\alpha}\mathcal{W}_{\alpha}$ and its hermitian conjugate is well-known [2]. That is
 $$
     \begin{equation}
         \text{Tr}\ 
