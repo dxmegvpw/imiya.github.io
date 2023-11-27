@@ -830,6 +830,9 @@ $$
                 \frac{1}{3\sqrt{2}}[\phi_{j},\phi_{k}]
             \right)
         \right]
+        \nonumber
+        \\
+        &=
     \end{align}
 $$
 
