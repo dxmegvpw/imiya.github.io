@@ -772,7 +772,7 @@ $$
             V
         \nonumber
         \\
-        &\hspace{5pt}
+        &\qquad
             +
             \left(
                 \bar{\partial}_{\bar{i}}V
@@ -813,7 +813,7 @@ $$
 $$
 Note that we have used the cyclic property of the trace $$\text{Tr}AB=\text{Tr}BA$$, and the underline $$\underline{\cdots}$$ at the first line is the non-zero term.
 
-Let us focus on the superpotential $$\underline{\mathcal{W}}$$.
+Let us focus on the superpotential $$\mathcal{W}$$.
 $$
     \begin{align}
         \mathcal{W}
