@@ -32,8 +32,6 @@ $$
                 \text{h.c.}
             \right\}
         \right]
-        \label{eq:action}
-        \tag{1}
     \end{equation}
 $$
 where
@@ -230,7 +228,7 @@ $$
         .
     \end{align}
 $$
-This is the only term that contain the auxiliary $D$. Note that the action $S$ contains only the highest term $\theta^4$ from the Kahler potential $\mathcal{K}$. Thus when we take the derivative to the $D$, the term which has only one $V$ will remain[^1]. So we find
+This is the only term that contains the auxiliary $D$. Note that the action $S$ contains only the highest term $\theta^4$ from the Kahler potential $\mathcal{K}$. Thus when we take the derivative to the $D$, the term which has only one $V$ will remain[^1]. So we find
 $$
     \begin{align}
         \frac{\delta \mathcal{S}}{\delta D}
@@ -287,7 +285,7 @@ $$
         .
     \end{align}
 $$
-The term including $\text{Tr}\mathcal{W}^{\alpha}\mathcal{W}_{\alpha}$ and its hermitian conjugate is well-known [2]. That is
+The term including $\text{Tr}\ \mathcal{W}^{\alpha}\mathcal{W}_{\alpha}$ and its hermitian conjugate is well-known[2]. That is
 $$
     \begin{equation}
         \text{Tr}\ 
@@ -334,7 +332,7 @@ $$
         \right)
     \end{equation}
 $$
-for the equation of motion with respect to the  auxiliary $D$.
+for the equation of motion with respect to the auxiliary $D$.
 
 ### Lagrangian with the field fluctuations
 
