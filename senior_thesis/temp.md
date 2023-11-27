@@ -843,32 +843,119 @@ $$
         e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}}
         \text{Tr}
         \left[\vphantom{\frac{1}{2}}\right.
-            \sqrt{2}\phi_{i}\partial_{j}\phi_{k}
+            \underline{\sqrt{2}\phi_{i}\partial_{j}\phi_{k}}
             +
             \sqrt{2}\braket{\phi_{i}}\partial_{j}\phi_{k}
         \nonumber
         \\
         &\qquad
             -
-            \frac{1}{3}\phi_{i}[\phi_{j},\phi_{k}]
+            \underline{\frac{1}{3}\phi_{i}[\phi_{j},\phi_{k}]}
             -
             \frac{1}{3}\phi_{i}[\braket{\phi_{j}},\phi_{k}]
             -
             \frac{1}{3}\phi_{i}[\phi_{j},\braket{\phi_{k}}]
             -
-            \frac{1}{3}\phi_{i}[\braket{\phi_{j}},\braket{\phi_{k}}]
+            \underline{\frac{1}{3}\phi_{i}[\braket{\phi_{j}},\braket{\phi_{k}}]}
         \nonumber
         \\
         &\qquad
             -
             \frac{1}{3}\braket{\phi_{i}}[\phi_{j},\phi_{k}]
             -
-            \frac{1}{3}\braket{\phi_{i}}[\braket{\phi_{j}},\phi_{k}]
+            \underline{\frac{1}{3}\braket{\phi_{i}}[\braket{\phi_{j}},\phi_{k}]}
             -
-            \frac{1}{3}\braket{\phi_{i}}[\phi_{j},\braket{\phi_{k}}]
+            \underline{\frac{1}{3}\braket{\phi_{i}}[\phi_{j},\braket{\phi_{k}}]}
             -
             \frac{1}{3}\braket{\phi_{i}}[\braket{\phi_{j}},\braket{\phi_{k}}]
+        \left.\vphantom{\frac{1}{2}}\right] 
         \nonumber
+        \\
+        &=
+        \frac{1}{g^2}
+        \varepsilon^{\text{ijk}}
+        e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}}
+        \text{Tr}
+        \left[\vphantom{\frac{1}{2}}\right.
+            \sqrt{2}
+            \left(
+                \partial_{i}\phi_{j}
+                -
+                \frac{1}{\sqrt{2}}[\braket{\phi_{i}},\phi_{j}]
+            \right)
+            \phi_{k}
+            -
+            \frac{2}{3}\phi_{i}\phi_{j}\phi_{k}        
+        \left.\vphantom{\frac{1}{2}}\right]
+        \nonumber
+        \\
+        &\qquad
+        +
+        \frac{1}{g^2}
+        \varepsilon^{\text{ijk}}
+        e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}}
+        \text{Tr}
+        \left[\vphantom{\frac{1}{2}}\right.
+            \sqrt{2}\braket{\phi_{i}}\partial_{j}\phi_{k}   
+            -
+            \frac{1}{3}\phi_{i}[\braket{\phi_{j}},\phi_{k}]
+            -
+            \frac{1}{3}\phi_{i}[\phi_{j},\braket{\phi_{k}}]
+        \nonumber
+        \\
+        &\hspace{100pt}
+            -
+            \frac{1}{3}\braket{\phi_{i}}[\phi_{j},\phi_{k}]
+            -
+            \frac{1}{3}\braket{\phi_{i}}[\braket{\phi_{j}},\braket{\phi_{k}}]
+        \left.\vphantom{\frac{1}{2}}\right]
+        \\
+        &\equiv
+        \mathcal{W^{(0)}}
+        +
+        \mathcal{W^{(F)}}
+        \nonumber
+    \end{align}
+$$
+where
+$$
+    \begin{align}
+        \mathcal{W^{(0)}}
+        &=
+        \frac{1}{g^2}
+        \varepsilon^{\text{ijk}}
+        e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}}
+        \text{Tr}
+        \left[\vphantom{\frac{1}{2}}\right.
+            \sqrt{2}
+            \left(
+                \partial_{i}\phi_{j}
+                -
+                \frac{1}{\sqrt{2}}[\braket{\phi_{i}},\phi_{j}]
+            \right)
+            \phi_{k}
+            -
+            \frac{2}{3}\phi_{i}\phi_{j}\phi_{k}        
+        \left.\vphantom{\frac{1}{2}}\right]
+        ,
+        \\
+        \mathcal{W^{(F)}}
+        &=
+        \frac{1}{g^2}
+        \varepsilon^{\text{ijk}}
+        e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}}
+        \text{Tr}
+        \left[\vphantom{\frac{1}{2}}\right.
+            \sqrt{2}\braket{\phi_{i}}\partial_{j}\phi_{k}
+        \nonumber
+        \\
+        &\hspace{100pt}
+            -
+            2\phi_{i}\phi_{j}\braket{\phi_{k}}
+            -
+            \frac{2}{3}\braket{\phi_{i}}\braket{\phi_{j}}\braket{\phi_{k}}
+        \left.\vphantom{\frac{1}{2}}\right]
+        .
     \end{align}
 $$
 
