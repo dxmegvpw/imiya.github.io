@@ -542,6 +542,19 @@ $$
     \begin{align}
         \mathcal{K}
         &=
+        \frac{2}{g^2}h^{\bar{i}j}
+        \text{Tr}\left[\vphantom{\frac{1}{2}}\right.
+            \underline{\bar{\phi}_{\bar{i}}\phi_{j}}
+            +
+            \braket{\bar{\phi}_{\bar{i}}}\phi_{j}
+            +        
+            \bar{\phi}_{\bar{i}}\braket{\phi_{j}}
+            +
+            \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}
+            -
+            \underline{\sqrt{2}\bar{\phi}_{\bar{i}}(\partial_{j}V)}
+            -
+            \underline{\sqrt{2}\braket{\bar{\phi}_{\bar{i}}}(\partial_{j}V)}
         \nonumber
         \\
         &\qquad
@@ -833,11 +846,29 @@ $$
             \sqrt{2}\phi_{i}\partial_{j}\phi_{k}
             +
             \sqrt{2}\braket{\phi_{i}}\partial_{j}\phi_{k}
+        \nonumber
         \\
         &\qquad
             -
-            \frac{1}{3}(\phi_{i}+\braket{\phi_{i}})[\phi_{j}+\braket{\phi_{j}},\phi_{k}+\braket{\phi_{k}}]
-        \left.\vphantom{\frac{1}{2}}\right] 
+            \frac{1}{3}\phi_{i}[\phi_{j},\phi_{k}]
+            -
+            \frac{1}{3}\phi_{i}[\braket{\phi_{j}},\phi_{k}]
+            -
+            \frac{1}{3}\phi_{i}[\phi_{j},\braket{\phi_{k}}]
+            -
+            \frac{1}{3}\phi_{i}[\braket{\phi_{j}},\braket{\phi_{k}}]
+        \nonumber
+        \\
+        &\qquad
+            -
+            \frac{1}{3}\braket{\phi_{i}}[\phi_{j},\phi_{k}]
+            -
+            \frac{1}{3}\braket{\phi_{i}}[\braket{\phi_{j}},\phi_{k}]
+            -
+            \frac{1}{3}\braket{\phi_{i}}[\phi_{j},\braket{\phi_{k}}]
+            -
+            \frac{1}{3}\braket{\phi_{i}}[\braket{\phi_{j}},\braket{\phi_{k}}]
+        \nonumber
     \end{align}
 $$
 
