@@ -285,7 +285,7 @@ $$
         .
     \end{align}
 $$
-The term including $\text{Tr}\ \mathcal{W}^{\alpha}\mathcal{W}_{\alpha}$ and its hermitian conjugate is well-known[^2]. That is
+The term including $$\text{Tr}\ \mathcal{W}^{\alpha}\mathcal{W}_{\alpha}$$ and its hermitian conjugate is well-known[^2]. That is
 $$
     \begin{equation}
         \text{Tr}\ 
@@ -339,7 +339,7 @@ $$
         \right)
     \end{equation}
 $$
-for the equation of motion with respect to the auxiliary $D$. Let us move on to the computation for the auxiliary $F_i$. $F_{i}$ is included by the superfield $\phi_{i}$ that appears only in Kahler potential $\mathcal{K}$ and super potential $\mathcal{W}$, not in field strength $\mathcal{W}^{\alpha}$. The highest component containing the auxiliary $F_{i}$ comes from the term $\bar{\phi}_{\bar{i}}\phi_{j}$ in Kahler potential. Thus the Kahler potential including $F$ is
+for the equation of motion with respect to the auxiliary $D$. Let us move on to the computation for the auxiliary $F_i$. $F_{i}$ is included by the superfield $\phi_{i}$ that appears only in Kahler potential $\mathcal{K}$ and super potential $\mathcal{W}$, not in field strength $$\mathcal{W}^{\alpha}$$. The highest component containing the auxiliary $F_{i}$ comes from the term $$\bar{\phi}_{\bar{i}}\phi_{j}$$ in Kahler potential. Thus the Kahler potential including $F$ is
 $$
     \begin{equation}
         \mathcal{K}
