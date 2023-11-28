@@ -1029,9 +1029,9 @@ $$
                     +
                     CW^3
                 \right)
-            \right\}
             +
             \text{h.c.}
+            \right\}
         \left.\vphantom{\frac{1}{2}}\right]
         .
     \end{align}
