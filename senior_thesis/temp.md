@@ -1006,7 +1006,7 @@ $$
 The first term at the second line vanished because of the commutativity of the VEVs $$\braket{\bar{A}_{\bar{i}}}\braket{A_{j}}=\braket{A_{j}}\braket{\bar{A}_{\bar{i}}}$$. The second one
 
 
-
+## Effective SUGRA
 
 
 
