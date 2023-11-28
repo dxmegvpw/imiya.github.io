@@ -608,7 +608,7 @@ $$
         \\
         &\qquad
             -
-            \bar{\phi}_{\bar{i}}V\phi_{j}
+            \underline{\bar{\phi}_{\bar{i}}V\phi_{j}}
             -
             \underline{\braket{\bar{\phi}_{\bar{i}}}V\phi_{j}}
             -
@@ -811,8 +811,6 @@ $$
             +
             \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V
             -
-            \bar{\phi}_{\bar{i}}V\phi_{j}
-            -
             \braket{\bar{\phi}_{\bar{i}}}V\braket{\phi_{j}}
         \left.\vphantom{\frac{1}{2}}\right]
     \end{align}
@@ -911,16 +909,16 @@ $$
         \left.\vphantom{\frac{1}{2}}\right]
         \\
         &\equiv
-        W^{(0)}
+        \mathcal{W}^{(0)}
         +
-        W^{(F)}
+        \mathcal{W}^{(F)}
         \nonumber
     \end{align}
 $$
 where
 $$
     \begin{align}
-        W^{(0)}
+        \mathcal{W}^{(0)}
         &=
         \frac{1}{g^2}
         \varepsilon^{\text{ijk}}
@@ -939,7 +937,7 @@ $$
         \left.\vphantom{\frac{1}{2}}\right]
         ,
         \\
-        W^{(F)}
+        \mathcal{W}^{(F)}
         &=
         \frac{1}{g^2}
         \varepsilon^{\text{ijk}}
@@ -970,8 +968,6 @@ $$
         \int\text{d}^4\theta\ \frac{2}{g^2}h^{\bar{i}j}\text{Tr}\ \left[\vphantom{\frac{1}{2}}\right.
             \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V
             -
-            \bar{\phi}_{\bar{i}}V\phi_{j}
-            -
             \braket{\bar{\phi}_{\bar{i}}}V\braket{\phi_{j}}
         \left.\vphantom{\frac{1}{2}}\right]
         \nonumber
@@ -982,28 +978,52 @@ $$
             -
             \frac{1}{2}\braket{A_{j}}  \braket{A_{\bar{i}}}D
         \left.\vphantom{\frac{1}{2}}\right]
-        \nonumber
-        \\
-        &\qquad
-        +
-        \frac{2}{g^2}h^{\bar{i}j}\text{Tr}\ \left[\vphantom{\frac{1}{2}}\right.
+        =
+        0
+    \end{align}
+$$
+The first term at the second line vanished because of the commutativity of the VEVs $$\braket{\bar{A}_{\bar{i}}}\braket{A_{j}}=\braket{A_{j}}\braket{\bar{A}_{\bar{i}}}$$. The second one will be
+$$
+    \begin{align}
+        \int\text{d}^2\theta\ 
+        \mathcal{W}^{(F)}
+        &=        
+        \int\text{d}^2\theta\ 
+        \frac{1}{g^2}
+        \varepsilon^{\text{ijk}}
+        e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}}
+        \text{Tr}
+        \left[\vphantom{\frac{1}{2}}\right.
+            \sqrt{2}\braket{\phi_{i}}\partial_{j}\phi_{k}
             -
-            \frac{1}{2}\lambda_{j}\sigma^{\mu}\bar{\lambda}_{\bar{i}}
-            +
-            \frac{i}{2}\bar{A}_{\bar{i}}\lambda_{0}\lambda{j}
-            -
-            \frac{i}{2}\overline{\lambda_{i}\lambda_{0}}A_{j}
-            -
-            \frac{1}{4}\bar{A}_{\bar{i}}DA_{j}
+            2\phi_{i}\phi_{j}\braket{\phi_{k}}
         \left.\vphantom{\frac{1}{2}}\right]
         \nonumber
         \\
-        &=
+        &=        
+        \frac{1}{g^2}
+        \varepsilon^{\text{ijk}}
+        e^{\ i}_{\text{i}}e^{\ j}_{\text{j}}e^{\ k}_{\text{k}}
+        \text{Tr}
+        \left[\vphantom{\frac{1}{2}}\right.
+            \braket{A_{i}}\partial_{j}F_{k}
+            -
+            \frac{1}{2}
+            \left(
+                A_{i}F_{j}+A_{j}F_{i}
+            \right)
+            \braket{A_{k}}
+        \nonumber
+        \\
+        &\hspace{100pt}
+            +
+            \sqrt{2}\lambda_{i}\lambda_{j}\braket{A_{k}}
+        \left.\vphantom{\frac{1}{2}}\right]
+        =
         0
-        +
     \end{align}
 $$
-The first term at the second line vanished because of the commutativity of the VEVs $$\braket{\bar{A}_{\bar{i}}}\braket{A_{j}}=\braket{A_{j}}\braket{\bar{A}_{\bar{i}}}$$. The second one
+because of the commutativity of the VEV too.
 
 
 ## Effective SUGRA
