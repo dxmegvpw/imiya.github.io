@@ -850,20 +850,20 @@ $$
             -
             \underline{\frac{1}{3}\phi_{i}[\phi_{j},\phi_{k}]}
             -
-            \frac{1}{3}\phi_{i}[\braket{\phi_{j}},\phi_{k}]
+            \underline{\frac{1}{3}\phi_{i}[\braket{\phi_{j}},\phi_{k}]}
             -
-            \frac{1}{3}\phi_{i}[\phi_{j},\braket{\phi_{k}}]
+            \underline{\frac{1}{3}\phi_{i}[\phi_{j},\braket{\phi_{k}}]}
             -
-            \underline{\frac{1}{3}\phi_{i}[\braket{\phi_{j}},\braket{\phi_{k}}]}
+            \frac{1}{3}\phi_{i}[\braket{\phi_{j}},\braket{\phi_{k}}]
         \nonumber
         \\
         &\qquad
             -
-            \frac{1}{3}\braket{\phi_{i}}[\phi_{j},\phi_{k}]
+            \underline{\frac{1}{3}\braket{\phi_{i}}[\phi_{j},\phi_{k}]}
             -
-            \underline{\frac{1}{3}\braket{\phi_{i}}[\braket{\phi_{j}},\phi_{k}]}
+            \frac{1}{3}\braket{\phi_{i}}[\braket{\phi_{j}},\phi_{k}]
             -
-            \underline{\frac{1}{3}\braket{\phi_{i}}[\phi_{j},\braket{\phi_{k}}]}
+            \frac{1}{3}\braket{\phi_{i}}[\phi_{j},\braket{\phi_{k}}]
             -
             \frac{1}{3}\braket{\phi_{i}}[\braket{\phi_{j}},\braket{\phi_{k}}]
         \left.\vphantom{\frac{1}{2}}\right] 
@@ -896,14 +896,14 @@ $$
         \left[\vphantom{\frac{1}{2}}\right.
             \sqrt{2}\braket{\phi_{i}}\partial_{j}\phi_{k}   
             -
-            \frac{1}{3}\phi_{i}[\braket{\phi_{j}},\phi_{k}]
+            \frac{1}{3}\braket{\phi_{i}}[\braket{\phi_{j}},\phi_{k}]
             -
-            \frac{1}{3}\phi_{i}[\phi_{j},\braket{\phi_{k}}]
+            \frac{1}{3}\phi_{i}[\braket{\phi_{j}},\braket{\phi_{k}}]
         \nonumber
         \\
         &\hspace{100pt}
             -
-            \frac{1}{3}\braket{\phi_{i}}[\phi_{j},\phi_{k}]
+            \frac{1}{3}\braket{\phi_{i}}[\braket{\phi_{j}},\phi_{k}]
             -
             \frac{1}{3}\braket{\phi_{i}}[\braket{\phi_{j}},\braket{\phi_{k}}]
         \left.\vphantom{\frac{1}{2}}\right]
@@ -949,7 +949,7 @@ $$
         \\
         &\hspace{100pt}
             -
-            2\phi_{i}\phi_{j}\braket{\phi_{k}}
+            2\phi_{i}\braket{\phi_{j}}\braket{\phi_{k}}
             -
             \frac{2}{3}\braket{\phi_{i}}\braket{\phi_{j}}\braket{\phi_{k}}
         \left.\vphantom{\frac{1}{2}}\right]
@@ -996,7 +996,7 @@ $$
         \left[\vphantom{\frac{1}{2}}\right.
             \sqrt{2}\braket{\phi_{i}}\partial_{j}\phi_{k}
             -
-            2\phi_{i}\phi_{j}\braket{\phi_{k}}
+            2\phi_{i}\braket{\phi_{j}}\braket{\phi_{k}}
         \left.\vphantom{\frac{1}{2}}\right]
         \nonumber
         \\
@@ -1009,21 +1009,13 @@ $$
             \braket{A_{i}}\partial_{j}F_{k}
             -
             \frac{1}{2}
-            \left(
-                A_{i}F_{j}+A_{j}F_{i}
-            \right)
-            \braket{A_{k}}
-        \nonumber
-        \\
-        &\hspace{100pt}
-            +
-            \sqrt{2}\lambda_{i}\lambda_{j}\braket{A_{k}}
+            F_{i}\braket{A_{j}}\braket{A_{k}}
         \left.\vphantom{\frac{1}{2}}\right]
         =
         0
     \end{align}
 $$
-because of the commutativity of the VEV too.
+because of the commutativity of the VEV too[^4].
 
 
 ## Effective SUGRA
@@ -1070,3 +1062,5 @@ $$
 [^2]: Refer the exercise 2 in Section 7 in the textbook[2].
 
 [^3]: For example, the term not including $$\theta^4$$ like $$\braket{\bar{\phi}_{\bar{i}}}\phi_{j}$$ vanishes.
+
+[^4]: More accurately, the term $$\braket{A_{i}}\partial_{j}F_{k}$$ vanishes because of the integration by parts and the fact that $$\partial_{j}\braket{A_{i}}=0$$. The last condition is derived from the Lorentz invariance of the flux.
