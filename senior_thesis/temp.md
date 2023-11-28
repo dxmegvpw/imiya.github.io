@@ -911,16 +911,16 @@ $$
         \left.\vphantom{\frac{1}{2}}\right]
         \\
         &\equiv
-        \mathcal{W^{(0)}}
+        W^{(0)}
         +
-        \mathcal{W^{(F)}}
+        W^{(F)}
         \nonumber
     \end{align}
 $$
 where
 $$
     \begin{align}
-        \mathcal{W^{(0)}}
+        W^{(0)}
         &=
         \frac{1}{g^2}
         \varepsilon^{\text{ijk}}
@@ -939,7 +939,7 @@ $$
         \left.\vphantom{\frac{1}{2}}\right]
         ,
         \\
-        \mathcal{W^{(F)}}
+        W^{(F)}
         &=
         \frac{1}{g^2}
         \varepsilon^{\text{ijk}}
@@ -962,9 +962,49 @@ We have used the property that the indices $$i,j,k$$ are totally antisymmetric b
 
 ### Do $$\mathcal{K}^{(D)}$$ and $$\mathcal{W}^{(F)}$$ really vanish?
 
-We will check that $$\mathcal{K}^{(D)}$$ and $$\mathcal{W}^{(F)}$$ are vanished if we impose the SUSY condition.
+We will check that $$\mathcal{K}^{(D)}$$ and $$\mathcal{W}^{(F)}$$ are vanished if we impose the SUSY condition. For the Kahler potential $$\mathcal{K}^{(D)}$$, only $$\theta^4$$ terms remains in the action $$S$$[^3]. Thus after taking VEV's it yields
+$$
+    \begin{align}
+        \int\text{d}^4\theta\ \mathcal{K}^{(D)}
+        &=
+        \int\text{d}^4\theta\ \frac{2}{g^2}h^{\bar{i}j}\text{Tr}\ \left[\vphantom{\frac{1}{2}}\right.
+            \braket{\bar{\phi}_{\bar{i}}}\braket{\phi_{j}}V
+            -
+            \bar{\phi}_{\bar{i}}V\phi_{j}
+            -
+            \braket{\bar{\phi}_{\bar{i}}}V\braket{\phi_{j}}
+        \left.\vphantom{\frac{1}{2}}\right]
+        \nonumber
+        \\
+        &=
+        \frac{1}{g^2}h^{\bar{i}j}\text{Tr}\ \left[\vphantom{\frac{1}{2}}\right.
+            \frac{1}{2}\braket{\bar{A}_{\bar{i}}}\braket{A_{j}}D
+            -
+            \frac{1}{2}\braket{A_{j}}  \braket{A_{\bar{i}}}D
+        \left.\vphantom{\frac{1}{2}}\right]
+        \nonumber
+        \\
+        &\qquad
+        +
+        \frac{2}{g^2}h^{\bar{i}j}\text{Tr}\ \left[\vphantom{\frac{1}{2}}\right.
+            -
+            \frac{1}{2}\lambda_{j}\sigma^{\mu}\bar{\lambda}_{\bar{i}}
+            +
+            \frac{i}{2}\bar{A}_{\bar{i}}\lambda_{0}\lambda{j}
+            -
+            \frac{i}{2}\overline{\lambda_{i}\lambda_{0}}A_{j}
+            -
+            \frac{1}{4}\bar{A}_{\bar{i}}DA_{j}
+        \left.\vphantom{\frac{1}{2}}\right]
+        \nonumber
+        \\
+        &=
+        0
+        +
+    \end{align}
+$$
+The first term at the second line vanished because of the commutativity of the VEVs $\braket{\bar{A}_{\bar{i}}}\braket{A_{j}}=\braket{A_{j}}\braket{\bar{A}_{\bar{i}}}$. The second one
 
-For
 
 
 
@@ -981,3 +1021,5 @@ For
 [^1]: If there are two $V$'s, for instance $$\bar{\phi}_{\bar{i}}(\partial_{j}V)V$$ or $$\bar{\phi}_{\bar{i}}\phi_{j}V^2$$, the term must not have the $D$ for the highest components. The term higher than $V^3$ should vanish by WZ gauge fixing, and no $V$ term also does not have the contribution for the equation of motion.
 
 [^2]: Refer the exercise 2 in Section 7 in the textbook[2].
+
+[^3]: For example, the term not including $$\theta^4$$ like $$\braket{\bar{\phi}_{\bar{i}}}\phi_{j}$$ vanishes.
