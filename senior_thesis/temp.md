@@ -1008,7 +1008,34 @@ The first term at the second line vanished because of the commutativity of the V
 
 ## Effective SUGRA
 
-
+The actiion for 4D $$\mathcal{N}=1$$ conformal supergravity is written as
+$$
+    \begin{align}
+        S_{\mathcal{N}=1}
+        &=
+        \int\text{d}^4x\ \sqrt{-g^{C}}
+            \left[\vphantom{\frac{1}{2}}\right.
+            -3\int\text{d}^4\theta\ 
+            \bar{C}Ce^{-K/3}
+        \nonumber
+        \\
+        &\qquad
+            +
+            \left\{
+                \int\text{d}^2\theta\ 
+                \left(
+                    \frac{1}{4}
+                    \sum_{a}f_{a}W^{a,\alpha}W^{a}_{\alpha}
+                    +
+                    CW^3
+                \right)
+            \right\}
+            +
+            \text{h.c.}
+        \left.\vphantom{\frac{1}{2}}\right]
+        .
+    \end{align}
+$$
 
 
 
