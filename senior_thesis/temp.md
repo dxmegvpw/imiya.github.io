@@ -524,7 +524,7 @@ holds.
 
 ### Lagrangian with the field fluctuations
 
-We set VEV'S for
+We set VEV's for
 $$
     \begin{equation}
         \braket{V}
@@ -956,7 +956,7 @@ $$
         .
     \end{align}
 $$
-We have used the property that the indices $$i,j,k$$ are totally antisymmetric because of the codfficient $$\varepsilon^{\text{ijk}}$$ and the cyclicity inside the trace.
+We have used the property that the indices $$i,j,k$$ are totally antisymmetric because of the coefficient $$\varepsilon^{\text{ijk}}$$ and the cyclicity inside the trace.
 
 ### Do $$\mathcal{K}^{(D)}$$ and $$\mathcal{W}^{(F)}$$ really vanish?
 
@@ -982,7 +982,7 @@ $$
         0
     \end{align}
 $$
-The first term at the second line vanished because of the commutativity of the VEVs $$\braket{\bar{A}_{\bar{i}}}\braket{A_{j}}=\braket{A_{j}}\braket{\bar{A}_{\bar{i}}}$$. The second one will be
+The first term at the second line vanished because of the commutativity of the VEV's $$\braket{\bar{A}_{\bar{i}}}\braket{A_{j}}=\braket{A_{j}}\braket{\bar{A}_{\bar{i}}}$$. The second one will be
 $$
     \begin{align}
         \int\text{d}^2\theta\ 
@@ -1020,7 +1020,7 @@ because of the commutativity of the VEV too[^4].
 
 ## Effective SUGRA
 
-The actiion for 4D $$\mathcal{N}=1$$ conformal supergravity is written as
+The action for 4D $$\mathcal{N}=1$$ conformal supergravity is written as
 $$
     \begin{align}
         S_{\mathcal{N}=1}
@@ -1053,9 +1053,9 @@ $$
 
 ## Reference
 
-1. <a name="AbeKobayashi2012"></a>H. Abe, T. Kobayashi, H. Ohki, and K. Sumita, *“Superfield description of 10D SYM theory with magnetized extra dimensions,”* Nuclear Physics B, vol. 863, no. 1, pp. 1–18, Oct. 2012, [doi: 10.1016/j.nuclphysb.2012.05.012](https://www.sciencedirect.com/science/article/pii/S0550321312002714).
+1. <a name="AbeKobayashiOhkiSumita2012"></a>H. Abe, T. Kobayashi, H. Ohki, and K. Sumita, *“Superfield description of 10D SYM theory with magnetized extra dimensions,”* Nuclear Physics B, vol. 863, no. 1, pp. 1–18, Oct. 2012, [doi: 10.1016/j.nuclphysb.2012.05.012](https://www.sciencedirect.com/science/article/pii/S0550321312002714).
 
-2. <a name="WessBaggger"></a>J. Wess and J. Bagger, *"Supersymmetry and Supergravity."* Princeton, N.J: Princeton University Press, 1992.
+2. <a name="WessBagger"></a>J. Wess and J. Bagger, *"Supersymmetry and Supergravity."* Princeton, N.J: Princeton University Press, 1992.
 
 [^1]: If there are two $V$'s, for instance $$\bar{\phi}_{\bar{i}}(\partial_{j}V)V$$ or $$\bar{\phi}_{\bar{i}}\phi_{j}V^2$$, the term must not have the $D$ for the highest components. The term higher than $V^3$ should vanish by WZ gauge fixing, and no $V$ term also does not have the contribution for the equation of motion.
 
