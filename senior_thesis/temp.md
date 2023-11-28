@@ -339,7 +339,7 @@ $$
         \right)
     \end{equation}
 $$
-for the equation of motion with respect to the auxiliary $D$. Let us move on to the computation for the auxiliary $F_i$. $F_{i}$ is included by the superfield $\phi_{i}$ that appears only in Kahler potential $\mathcal{K}$ and super potential $\mathcal{W}$, not in field strength $$\mathcal{W}^{\alpha}$$. The highest component containing the auxiliary $F_{i}$ comes from the term $$\bar{\phi}_{\bar{i}}\phi_{j}$$ in Kahler potential. Thus the Kahler potential including $F$ is
+for the equation of motion with respect to the auxiliary $D$. Let us move on to the computation for the auxiliary $$F_i$$. $$F_{i}$$ is included by the superfield $$\phi_{i}$$ that appears only in Kahler potential $$\mathcal{K}$$ and super potential $$\mathcal{W}$$, not in field strength $$\mathcal{W}^{\alpha}$$. The highest component containing the auxiliary $$F_{i}$$ comes from the term $$\bar{\phi}_{\bar{i}}\phi_{j}$$ in Kahler potential. Thus the Kahler potential including $$F$$ is
 $$
     \begin{equation}
         \mathcal{K}
@@ -427,7 +427,7 @@ $$
         .
     \end{align}
 $$
-By derivating to the $F_{i}$, the term in the action become separately
+By derivating to the $$F_{i}$$, the term in the action become separately
 $$
     \begin{align}
         \frac{\delta}{\delta F_{i}}
@@ -488,7 +488,7 @@ $$
         .
     \end{align}
 $$
-Note that we have interchanged the dummy indices several times after derivating. At last, the equation of motion with respect to the $F_{i}$
+Note that we have interchanged the dummy indices several times after derivating. At last, the equation of motion with respect to the $$F_{i}$$
 $$
     \begin{equation}
         h^{\bar{j}i}\bar{F}_{\bar{j}}
@@ -1003,7 +1003,7 @@ $$
         +
     \end{align}
 $$
-The first term at the second line vanished because of the commutativity of the VEVs $\braket{\bar{A}_{\bar{i}}}\braket{A_{j}}=\braket{A_{j}}\braket{\bar{A}_{\bar{i}}}$. The second one
+The first term at the second line vanished because of the commutativity of the VEVs $$\braket{\bar{A}_{\bar{i}}}\braket{A_{j}}=\braket{A_{j}}\braket{\bar{A}_{\bar{i}}}$$. The second one
 
 
 
