@@ -982,7 +982,7 @@ $$
         0
     \end{align}
 $$
-The first term at the second line vanished because of the commutativity of the VEV's $$\braket{\bar{A}_{\bar{i}}}\braket{A_{j}}=\braket{A_{j}}\braket{\bar{A}_{\bar{i}}}$$. The second one will be
+The first term at the second line vanished because of the commutativity of the VEV's $$\braket{\bar{A}_{\bar{i}}}\braket{A_{j}}=\braket{A_{j}}\braket{\bar{A}_{\bar{i}}}$$. The second one also vanishes
 $$
     \begin{align}
         \int\text{d}^2\theta\ 
@@ -1013,6 +1013,7 @@ $$
         \left.\vphantom{\frac{1}{2}}\right]
         =
         0
+        ,
     \end{align}
 $$
 because of the commutativity of the VEV too[^4].
@@ -1048,6 +1049,19 @@ $$
         .
     \end{align}
 $$
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
