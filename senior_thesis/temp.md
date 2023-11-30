@@ -121,7 +121,7 @@ $$
 
 ### SUSY condition
 
-By carrying out the derivative with respect to the $F_{i}$ and $"D_{i}$", we can obtain the on-shell relation of the auxiliary fields. First, let us focus on the Kä$$\text{\"{a}}$$hler potential. The term inside the trace become
+By carrying out the derivative with respect to the $F_{i}$ and $$D_{i}$$, we can obtain the on-shell relation of the auxiliary fields. First, let us focus on the Kähler potential. The term inside the trace become
 $$
     \begin{align}
         &\hspace{10pt}
