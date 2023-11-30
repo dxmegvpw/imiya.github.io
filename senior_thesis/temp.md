@@ -121,7 +121,7 @@ $$
 
 ### SUSY condition
 
-By carrying out the derivative with respect to the $F_{i}$ and $D_{i}$, we can obtain the on-shell relation of the auxiliary fields. First, let us focus on the Kähler potential. The term inside the trace become
+By carrying out the derivative with respect to the $F_{i}$ and $"D_{i}$", we can obtain the on-shell relation of the auxiliary fields. First, let us focus on the Kä$$\text{\"{a}}$$hler potential. The term inside the trace become
 $$
     \begin{align}
         &\hspace{10pt}
@@ -228,7 +228,7 @@ $$
         .
     \end{align}
 $$
-This is the only term that contains the auxiliary $D$. Note that the action $S$ contains only the highest term $\theta^4$ from the Kähler potential $\mathcal{K}$. Thus when we take the derivative to the $D$, the term which has only one $V$ will remain[^1]. After integrating by parts, for removing the factor the derivative of vector superfield, for instance, the term $$\bar{\phi}_{\bar{i}}\partial_{j}V$$, we find
+This is the only term that contains the auxiliary $$D$$. Note that the action $$S$$ contains only the highest term $$\theta^4$$ from the Kähler potential $$\mathcal{K}$$. Thus when we take the derivative to the $$D$$, the term which has only one $V$ will remain[^1]. After integrating by parts, for removing the factor the derivative of vector superfield, for instance, the term $$\bar{\phi}_{\bar{i}}\partial_{j}V$$, we find
 $$
     \begin{align}
         \frac{\delta \mathcal{S}}{\delta D}
