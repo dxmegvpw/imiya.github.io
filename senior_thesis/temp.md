@@ -121,7 +121,7 @@ $$
 
 ### SUSY condition
 
-By carrying out the derivative with respect to the $F_{i}$ and $D_{i}$, we can obtain the on-shell relation of the auxiliary fields. First, let us focus on the Kahler potential. The term inside the trace become
+By carrying out the derivative with respect to the $F_{i}$ and $D_{i}$, we can obtain the on-shell relation of the auxiliary fields. First, let us focus on the Kähler potential. The term inside the trace become
 $$
     \begin{align}
         &\hspace{10pt}
@@ -228,7 +228,7 @@ $$
         .
     \end{align}
 $$
-This is the only term that contains the auxiliary $D$. Note that the action $S$ contains only the highest term $\theta^4$ from the Kahler potential $\mathcal{K}$. Thus when we take the derivative to the $D$, the term which has only one $V$ will remain[^1]. After integrating by parts, for removing the factor the derivative of vector superfield, for instance, the term $$\bar{\phi}_{\bar{i}}\partial_{j}V$$, we find
+This is the only term that contains the auxiliary $D$. Note that the action $S$ contains only the highest term $\theta^4$ from the Kähler potential $\mathcal{K}$. Thus when we take the derivative to the $D$, the term which has only one $V$ will remain[^1]. After integrating by parts, for removing the factor the derivative of vector superfield, for instance, the term $$\bar{\phi}_{\bar{i}}\partial_{j}V$$, we find
 $$
     \begin{align}
         \frac{\delta \mathcal{S}}{\delta D}
@@ -339,7 +339,7 @@ $$
         \right)
     \end{equation}
 $$
-for the equation of motion with respect to the auxiliary $D$. Let us move on to the computation for the auxiliary $$F_i$$. $$F_{i}$$ is included by the superfield $$\phi_{i}$$ that appears only in Kahler potential $$\mathcal{K}$$ and super potential $$\mathcal{W}$$, not in field strength $$\mathcal{W}^{\alpha}$$. The highest component containing the auxiliary $$F_{i}$$ comes from the term $$\bar{\phi}_{\bar{i}}\phi_{j}$$ in Kahler potential. Thus the Kahler potential including $$F$$ is
+for the equation of motion with respect to the auxiliary $D$. Let us move on to the computation for the auxiliary $$F_i$$. $$F_{i}$$ is included by the superfield $$\phi_{i}$$ that appears only in Kähler potential $$\mathcal{K}$$ and super potential $$\mathcal{W}$$, not in field strength $$\mathcal{W}^{\alpha}$$. The highest component containing the auxiliary $$F_{i}$$ comes from the term $$\bar{\phi}_{\bar{i}}\phi_{j}$$ in Kähler potential. Thus the Kähler potential including $$F$$ is
 $$
     \begin{equation}
         \mathcal{K}
@@ -537,7 +537,7 @@ $$
         .
     \end{equation}
 $$
-Thus the Kahler potential satisfies
+Thus the Kähler potential satisfies
 $$
     \begin{align}
         \mathcal{K}
@@ -960,7 +960,7 @@ We have used the property that the indices $$i,j,k$$ are totally antisymmetric b
 
 ### Do $$\mathcal{K}^{(D)}$$ and $$\mathcal{W}^{(F)}$$ really vanish?
 
-We will check that $$\mathcal{K}^{(D)}$$ and $$\mathcal{W}^{(F)}$$ are vanished if we impose the SUSY condition. For the Kahler potential $$\mathcal{K}^{(D)}$$, only $$\theta^4$$ terms remains in the action $$S$$[^3]. Thus after taking VEV's it yields
+We will check that $$\mathcal{K}^{(D)}$$ and $$\mathcal{W}^{(F)}$$ are vanished if we impose the SUSY condition. For the Kähler potential $$\mathcal{K}^{(D)}$$, only $$\theta^4$$ terms remains in the action $$S$$[^3]. Thus after taking VEV's it yields
 $$
     \begin{align}
         \int\text{d}^4\theta\ \mathcal{K}^{(D)}
@@ -1049,10 +1049,6 @@ $$
         .
     \end{align}
 $$
-
-
-
-
 
 
 
