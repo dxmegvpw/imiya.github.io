@@ -1052,7 +1052,7 @@ $$
 
 
 
-
+## Polonyi model
 
 
 
@@ -1063,9 +1063,11 @@ $$
 
 ## Reference
 
-1. <a name="AbeKobayashiOhkiSumita2012"></a>H. Abe, T. Kobayashi, H. Ohki, and K. Sumita, *“Superfield description of 10D SYM theory with magnetized extra dimensions,”* Nuclear Physics B, vol. 863, no. 1, pp. 1–18, Oct. 2012, [doi: 10.1016/j.nuclphysb.2012.05.012](https://www.sciencedirect.com/science/article/pii/S0550321312002714).
+1. <a name="AbeKobayashiOhkiSumita2012"></a>H. Abe, T. Kobayashi, H. Ohki, and K. Sumita, “Superfield description of 10D SYM theory with magnetized extra dimensions,” Nuclear Physics B, vol. 863, no. 1, pp. 1–18, Oct. 2012, [doi: 10.1016/j.nuclphysb.2012.05.012](https://link.aps.org/doi/10.1103/PhysRevD.75.025019).
 
-2. <a name="WessBagger"></a>J. Wess and J. Bagger, *"Supersymmetry and Supergravity."* Princeton, N.J: Princeton University Press, 1992.
+2. <a name="AbeHigakiKobayashiOmura2007"></a>H. Abe, T. Higaki, T. Kobayashi, and Y. Omura, “Moduli stabilization, F-term uplifting, and soft supersymmetry breaking terms,” Phys. Rev. D, vol. 75, no. 2, p. 025019, Jan. 2007, [doi: 10.1103/PhysRevD.75.025019](https://doi.org/10.1016/j.nuclphysb.2012.05.012).
+
+3. <a name="WessBagger"></a>J. Wess and J. Bagger, *"Supersymmetry and Supergravity."* Princeton, N.J: Princeton University Press, 1992.
 
 [^1]: If there are two $$V$$s, for instance $$\bar{\phi}_{\bar{i}}(\partial_{j}V)V$$ or $$\bar{\phi}_{\bar{i}}\phi_{j}V^2$$, the term must not have the $$D$$ for the highest components. The term higher than $$V^3$$ should vanish by WZ gauge fixing, and no $$V$$ term also does not have the contribution for the equation of motion.
 
