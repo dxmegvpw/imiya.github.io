@@ -121,7 +121,7 @@ $$
 
 ### SUSY condition
 
-By carrying out the derivative with respect to the $F_{i}$ and $$D_{i}$$, we can obtain the on-shell relation of the auxiliary fields. First, let us focus on the Kähler potential. The term inside the trace become
+By carrying out the derivative with respect to the $$F_{i}$$ and $$D_{i}$$, we can obtain the on-shell relation of the auxiliary fields. First, let us focus on the Kähler potential. The term inside the trace become
 $$
     \begin{align}
         &\hspace{10pt}
@@ -228,7 +228,7 @@ $$
         .
     \end{align}
 $$
-This is the only term that contains the auxiliary $$D$$. Note that the action $$S$$ contains only the highest term $$\theta^4$$ from the Kähler potential $$\mathcal{K}$$. Thus when we take the derivative to the $$D$$, the term which has only one $V$ will remain[^1]. After integrating by parts, for removing the factor the derivative of vector superfield, for instance, the term $$\bar{\phi}_{\bar{i}}\partial_{j}V$$, we find
+This is the only term that contains the auxiliary $$D$$. Note that the action $$S$$ contains only the highest term $$\theta^4$$ from the Kähler potential $$\mathcal{K}$$. Thus when we take the derivative to the $$D$$, the term which has only one $$V$$ will remain[^1]. After integrating by parts, for removing the factor the derivative of vector superfield, for instance, the term $$\bar{\phi}_{\bar{i}}\partial_{j}V$$, we find
 $$
     \begin{align}
         \frac{\delta \mathcal{S}}{\delta D}
@@ -259,7 +259,7 @@ $$
         .
     \end{align}
 $$
-Note that we should be careful about the derivatives of the term like $$\bar{\phi}_{\bar{i}}V\phi_{j}$$. We derivate with respect to the auxiliary $D$, but it actually has the indices of the gauge group, $D_{AB}$. Therefore we obtain
+Note that we should be careful about the derivatives of the term like $$\bar{\phi}_{\bar{i}}V\phi_{j}$$. We derivate with respect to the auxiliary $$D$$, but it actually has the indices of the gauge group, $$D_{AB}$$. Therefore we obtain
 $$
     \begin{align}    
         \left.
@@ -339,7 +339,7 @@ $$
         \right)
     \end{equation}
 $$
-for the equation of motion with respect to the auxiliary $D$. Let us move on to the computation for the auxiliary $$F_i$$. $$F_{i}$$ is included by the superfield $$\phi_{i}$$ that appears only in Kähler potential $$\mathcal{K}$$ and super potential $$\mathcal{W}$$, not in field strength $$\mathcal{W}^{\alpha}$$. The highest component containing the auxiliary $$F_{i}$$ comes from the term $$\bar{\phi}_{\bar{i}}\phi_{j}$$ in Kähler potential. Thus the Kähler potential including $$F$$ is
+for the equation of motion with respect to the auxiliary $$D$$. Let us move on to the computation for the auxiliary $$F_i$$. $$F_{i}$$ is included by the superfield $$\phi_{i}$$ that appears only in Kähler potential $$\mathcal{K}$$ and super potential $$\mathcal{W}$$, not in field strength $$\mathcal{W}^{\alpha}$$. The highest component containing the auxiliary $$F_{i}$$ comes from the term $$\bar{\phi}_{\bar{i}}\phi_{j}$$ in Kähler potential. Thus the Kähler potential including $$F$$ is
 $$
     \begin{equation}
         \mathcal{K}
@@ -352,7 +352,7 @@ $$
         .
     \end{equation}
 $$
-From superpotential, we can get the term related auxiliary $F$ as
+From superpotential, we can get the term related auxiliary $$F$$ as
 $$
     \begin{align}
         \mathcal{W}
@@ -1067,7 +1067,7 @@ $$
 
 2. <a name="WessBagger"></a>J. Wess and J. Bagger, *"Supersymmetry and Supergravity."* Princeton, N.J: Princeton University Press, 1992.
 
-[^1]: If there are two $V$'s, for instance $$\bar{\phi}_{\bar{i}}(\partial_{j}V)V$$ or $$\bar{\phi}_{\bar{i}}\phi_{j}V^2$$, the term must not have the $D$ for the highest components. The term higher than $V^3$ should vanish by WZ gauge fixing, and no $V$ term also does not have the contribution for the equation of motion.
+[^1]: If there are two $$V$$s, for instance $$\bar{\phi}_{\bar{i}}(\partial_{j}V)V$$ or $$\bar{\phi}_{\bar{i}}\phi_{j}V^2$$, the term must not have the $$D$$ for the highest components. The term higher than $$V^3$$ should vanish by WZ gauge fixing, and no $$V$$ term also does not have the contribution for the equation of motion.
 
 [^2]: Refer the exercise 2 in Section 7 in the textbook[[2](#WessBagger)].
 
