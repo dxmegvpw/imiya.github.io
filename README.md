@@ -1,19 +1,3 @@
 # This is Itsuki Miyane's Web page!
 
-This is Itsuki Miyane's web page. I will store a lot of documents here.
-
-## Memo
-
-I would like to make a note of how to use it.
-
-### HTML
-
-- url $\rightarrow$ use `<a>` tag
-
-### Markdown
-
-If you see an error in your editor, don't worry about it.
-
-- inline equation $\rightarrow$ $$...$$
-- `[text](URL)`
-- `[^1]` and `[^1]: text` 
+This is Itsuki Miyane's web page. I will store several documents here.
